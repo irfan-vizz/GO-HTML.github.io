@@ -1,0 +1,1084 @@
+/* =================*********** Preset CSS Styling Start's Here ***********================= */
+/*
+ v1.0
+Author: Irfan Ali - http://engr.irfanali970@gmail.com */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    /* color: #000000;
+    background: white; */
+}
+
+input,
+select {
+    vertical-align: middle;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* =================*********** Preset CSS Styling End's Here ***********================= */
+/* =================*********** All Fonts Defined Here ***********================= */
+/* =================*********** Fonts Start ***********================= */
+
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url('/assets/font/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url('/assets/font/JosefinSans-Regular.ttf');
+}
+@font-face {
+    font-family: JosefinSans-Italic;
+    src: url('/assets/font/JosefinSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: JosefinSans-SemiBold;
+    src: url('/assets/font/JosefinSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Cardo-Regular;
+    src: url('/assets/font/Cardo-Regular.ttf');
+}
+@font-face {
+    font-family: Cardo-Italic;
+    src: url('/assets/font/Cardo-Italic.ttf');
+}
+
+@font-face {
+    font-family: Cardo-Bold;
+    src: url('/assets/font/Cardo-Bold.ttf');
+}
+
+/* =================*********** Fonts Classes Start's Here ***********================= */
+
+.JosefinLight {
+    font-family: JosefinSans-Light !important;
+}
+
+.JosefinRegular {
+    font-family: JosefinSans-Regular !important;
+}
+
+.JosefinItalic {
+    font-family: JosefinSans-Italic !important;
+}
+
+.JosefinSemiBold {
+    font-family: JosefinSans-SemiBold !important;
+}
+
+.CardoRegular {
+    font-family: Cardo-Regular !important;
+}
+.CardoItalic {
+    font-family: Cardo-Italic !important;
+}
+.CardoBold {
+    font-family: Cardo-Bold !important;
+}
+
+/* =================*********** Fonts Classes End's Here ***********================= */
+/* =================*********** Fonts End ***********================= */
+
+/* =================*********** Fade In AnimationStarts Here ***********================= */
+.invisibl {
+    opacity: 0;
+    -webkit-animation: fading ease-in 0.5s;
+    animation: fading ease-in 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.invisibl.one {
+    -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s
+    }
+    
+    .invisibl.two {
+       -webkit-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+    }
+@-webkit-keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+@-moz-keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+/* =================*********** Fade In AnimationEnds Here ***********================= */
+
+
+/* =================*********** Common Styling Starts Here ***********================= */
+body{
+    font-family: JosefinSans-Regular;
+    background-color: #EAE9E8;
+    line-height: 1.3;
+}
+.prmryBtn.lg{
+    padding: 4px 40px 0px 40px;
+    font-size: 16px;
+}
+.prmryBtn.sm{
+    padding: 4px 18px 0px 18px;
+    font-size: 12px;
+}
+.prmryBtn{
+    padding: 4px 26px 0px 26px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: JosefinSans-Light;
+    background-color: #007b3e;
+    border: 1px solid #007b3e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.prmryBtn:hover{
+    background-color: #fff;
+    color: #007b3e;
+    text-decoration: none;
+
+}
+.heading>h1{
+    font-family: Cardo-Regular;
+    font-size: 80px;
+}
+.heading>h2{
+    font-family: Cardo-Regular;
+    font-size: 44px;
+    color: #007B3F;
+}
+.heading>h3{
+    font-family: Cardo-Regular;
+    font-size: 28px;
+    color: #007B3F;
+}
+.subHeading>h3{
+    font-family: Cardo-Italic;
+    font-size: 22px;
+    color: #007B3F;
+}
+.content>p{
+    font-family: JosefinSans-light;
+    font-size: 20px;
+}
+.content.sm>p{
+    font-family: Cardo-Regular;
+    font-size: 16px;
+}
+.prmryGrn{
+    color: #66C082 !important;
+}
+.scndryGrn{
+    color: #007B3F !important;
+}
+.drkGrn{
+    color: #003F2C !important;
+}
+.prmryCrm{
+    color: #EAE9E8 !important;
+}
+.scndryCrm{
+    color: #DDD9CF !important;
+}
+.drkCrm{
+    color: #474140 !important;
+}
+.drkBlk{
+    color: #24282F !important;
+}
+.brdrBtmPrimry{
+    border-bottom: 8px solid #007B3F;
+}
+.brdrBtmPrimry.thin{
+    border-bottom: 4px solid #007B3F;
+}
+.brdrBtmScndry{
+    border-bottom: 3px solid #66C082;
+}
+/* =================*********** Common Styling Ends Here ***********================= */
+
+
+/* =================*********** Min-width Media Query Starts Here ***********================= */
+@media (min-width:991px) {
+    .subNav {
+        position: absolute;
+        padding: 0;
+        width: max-content;
+        list-style: none;
+        top: 100%;
+        /* background: #ffffffa8; */
+        background: #dbdbdba8;
+        padding: 10px 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-50px);
+        transition: all 0.5s;
+    }
+    .navItem:hover .subNav{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+        box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 20%);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+    .navLink i{
+        display: none;
+    }
+    .navItem:hover .navLink{
+        text-decoration: none;
+        color: #59b477;
+    }
+}
+/* =================*********** Min-width Media Query Ends Here ***********================= */
+
+
+/* =================*********** Humberger Menu Icon Styling Starts Here ***********================= */
+.menuIcon{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    display: none;
+}
+.hamburger { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+
+.hamburger { cursor: pointer; padding: 10px 35px 16px 0px; }
+.hamburger span, .hamburger span:before, .hamburger span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  display: inline-block;
+  content: '';
+}
+.hamburger span:before {
+  top: -10px; 
+}
+.hamburger span:after {
+  bottom: -10px;
+}
+.hamburger span, .hamburger span:before, .hamburger span:after {
+-webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+     -o-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+        transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+}
+.hamburger.active span {
+  background-color: transparent;
+}
+.hamburger.active span:before, .hamburger.active span:after {
+  top: 0;
+}
+.hamburger.active span:before {
+  transform: rotate(45deg);
+}
+.hamburger.active span:after {
+  transform: translateY(-10px) rotate(-45deg);
+  top: 10px;
+}
+/* =================*********** Humberger Menu Icon Styling Ends Here ***********================= */
+
+
+/* =================*********** Header Styling Starts Here ***********================= */
+.navWrap {
+    display: flex;
+    border-bottom: 5px solid #007b3e;
+    background-color: #24282f;
+    position: relative;
+    z-index: 99;
+}
+
+.logoArea {
+    width: 300px;
+    background-color: #007b3e;
+}
+.navLogo {
+    width: 180px;
+    margin: auto;
+    height: 90px;
+}
+.navLogo>svg {
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: calc(100% - 300px);
+}
+.navLink {
+    color: #fff;
+    font-size: 14px;
+    padding: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navItem{
+    position: relative;
+}
+
+.snLink {
+    display: block;
+    padding: 2px 10px;
+    color: #fff;
+}
+.snLink:hover{
+    background-color: #007b3e;
+    text-decoration: none;
+    color: #fff;
+}
+.listWrap {
+    display: flex;
+    width: calc(100% - 300px);
+    background-color: #24282f;
+    align-items: flex-end;
+}
+.navButn {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+.navButn button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px;
+    cursor: pointer;
+}
+.navButn button i {
+    font-size: 22px;
+    margin-right: 8px;
+}
+/* =================*********** Header Styling Ends Here ***********================= */
+
+/* =================*********** Mian Styling Starts Here ***********================= */
+
+/* =================*********** HomePage Styling Starts Here ***********================= */
+
+    .bnrSec{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .mainBnr{
+        background-image: url(/assets/images/Hero_01.png);
+        
+    }
+    .ovrlyBox {
+        max-width: 750px;
+        width: 100%;
+        margin: auto;
+        background: #0000009e;
+    }
+    .heading>h1>span{
+        display: inline-block;
+    }
+    .bnrCntnWrap{
+        /* color: #EAE9E8; */
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    .bnrCntnt>p {
+        margin: auto;
+        font-size: 22px;
+    }
+    .mainBnr.bnrCntnt>p {
+        max-width: 480px;
+        font-size: 26px;
+    }
+/* =================*********** HomePage Styling Ends Here ***********================= */
+/* =================*********** Approch Page Styling Starts Here ***********================= */
+
+.apprBnr{
+    background-image: url(/assets/images/Hero_02.png);
+}
+.subjectCard{
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+.subjectCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4a4a4e70;
+    z-index: 0;
+}
+.scInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+.whoCard{
+    background-image: url(/assets/images/shutterstock_1536856505.jpg);
+}
+.whereCard{
+    background-image: url(/assets/images/oakroots_504403096.jpg);
+}
+.whyCard{
+    background-image: url(/assets/images/shutterstock_418754044.jpg);
+}
+.howCard{
+    background-image: url(/assets/images/shutterstock_67135513.jpg);
+}
+.sbjctDot {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.sbjctTtile>h4 {
+    font-size: 56px;
+}
+.sbjctTxt>p {
+    font-size: 18px;
+    font-family: 'JosefinSans-SemiBold';
+}
+.sbjctDot > span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #007B3F;
+    border-radius: 50%;
+}
+/* =================*********** Approch Page Styling Ends Here ***********================= */
+
+
+/* =================*********** Team Page Styling Starts Here ***********================= */
+
+.teamBnr{
+    background-image: url(/assets/images/Hero_03.png);
+    background-position: 100% 25%;
+}
+.teamOuterwrap{
+    padding: 50px 0;
+}
+.teamOuterwrap + .teamOuterwrap{
+    border-top: 2px solid #007b3e;
+}
+.teamWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.profileCard {
+    flex: 0 0 calc((100% / 6) - 40px);
+    /* max-width: 200px; */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+}
+.pcImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.pcImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pcTitle>.title {
+    font-size: 16px;
+}
+.pcSubTitle>.sbTitle {
+    font-size: 16px;
+    font-family: 'Cardo-Regular';
+}
+/* =================*********** Team Page Styling Ends Here ***********================= */
+.csCard {
+    display: flex;
+    align-items: center;
+    max-width: 850px;
+}
+.csCard + .csCard{
+    border-top: 1px solid #007b3e;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.csImg{
+    width: 200px;
+    flex: 0 0 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+.csImg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* =================*********** Seller Consideration Page Styling Starts Here ***********================= */
+
+.sellerInner {
+    display: flex;
+    justify-content: center;
+}
+.saleCard {
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.sCrdTitle>h3 {
+    font-size: 22px;
+    font-family: 'Cardo-Bold';
+    color: #007b3e;
+}
+.sCrdTxt>p{
+    font-family: 'JosefinSans-Light';
+    font-size: 18px;
+}
+/* =================*********** Mian Styling Ends Here ***********================= */
+
+
+/* =================*********** Footer Styling Starts Here ***********================= */
+
+.newsWrap{
+    background-image: url(/assets/images/OakLeafDarkGrn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsInner {
+    border-top: 4px solid #003f2c;
+    border-bottom: 8px solid #003f2c;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.newsLeft {
+    width: 40%;
+}
+.newsHead > span {
+    font-size: 25px;
+    color: #66C082;
+    display: inline-block;
+    font-family: Cardo-Bold;
+    
+}
+.newsTxt > span{
+    color: #DDD9CF;
+    display: inline-block;
+    font-family: JosefinSans-Italic;
+    font-size: 18px;
+}
+.newsRight {
+    width: 60%;
+    position: relative;
+}
+.newsLeft, .newsRight {
+    padding: 0 12px 0 80px;
+}
+.newsLeft .newsCard {
+    max-width: 350px;
+    margin: auto;
+}
+.newsCard + .newsCard {
+    margin-top: 20px;
+}
+.newsTxt > span + span{
+    margin-left: 20px;
+    position: relative;
+}
+.newsTxt > span + span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    height: 16px;
+    width: 2px;
+    background-color: #DDD9CF;
+}
+.newsRight::before{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 2px;
+    background-color: #59ab6f;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.footerWrap {
+    padding: 50px 0;
+}
+.footerLogo{
+    width: 170px;
+    flex: 0 0 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftFt{
+    display: flex;
+    align-items: center;
+}
+.footerLogo>svg {
+    width: 100%;
+    height: 100%;
+}
+.ftTxt {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1.1;
+    margin-bottom:10px;
+    font-family: Cardo-Regular;
+    color: #24282F;
+}
+.ftBtn {
+    background: #007b3e;
+    color: #fff;
+    border: 1px solid #007b3e;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ftBtn:hover{
+    background: #fff;
+    color: #007b3e;
+}
+.ftHead>h4 {
+    font-size: 20px;
+    color: #007B3F;
+    font-family: Cardo-Bold;
+}
+.ftLink>a{
+    display: block;
+    font-size: 16px;
+    color: #24282F;
+    font-family: JosefinSans-Light;
+    text-decoration: none;
+    word-break: break-word;
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+.cpWrit{
+    font-size: 18px !important;
+}
+.ftBox:has(.cpWrit){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.ftBox:has(.cpWrit) .ftHead{
+    margin-bottom: 10px;
+}
+.ftCntnt {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* =================*********** Footer Styling Ends Here ***********================= */
+
+
+
+/* =================*********** CSS Space For Developers Start's Here ***********================= */
+/* =================*********** CSS Space For Developers Start's Here ***********================= */
+/* =================*********** CSS Space For Developers Start's Here ***********================= */
+
+
+/* =================*********** CSS Space For Developers End's Here ***********================= */
+/* =================*********** CSS Space For Developers End's Here ***********================= */
+/* =================*********** CSS Space For Developers End's Here ***********================= */
+
+
+
+/* =================*********** Media Queries Starts Here =================*********** */
+/* =================*********** Media Queries Starts Here =================*********** */
+/* =================*********** Media Queries Starts Here =================*********** */
+
+    @media (max-width:1400px) {
+        .logoArea,.navButn {
+            width: 250px;
+        }
+        .navList,.listWrap {
+            width: calc(100% - 250px);
+        }
+    }
+    @media (max-width:1200px) {
+        .logoArea,.navButn {
+            width: 200px;
+        }
+        .navList,.listWrap {
+            width: calc(100% - 200px);
+        }
+        .navLink {
+            padding: 16px 8px;
+        }
+        .heading>h1{
+            font-size: 60px;
+        }
+        .bnrCntnt>p {
+            font-size: 20px;
+        }
+        .heading>h2 {
+            font-size: 38px;
+        }
+        .content>p {
+            font-size: 18px;
+        }
+        .sbjctTtile>h4 {
+            font-size: 42px;
+        }
+        .subjectCard {
+            padding: 50px 0;
+            height: 350px;
+        }
+    }
+    @media (max-width:991px) {
+        .heading>h1{
+            font-size: 52px;
+        }
+        .bnrCntnt>p {
+            font-size: 18px;
+        }
+        .heading>h2 {
+            font-size: 36px;
+        }
+        .newsHead > span {
+            font-size: 22px;
+        }
+        .newsTxt > span {
+            font-size: 16px;
+        }
+        .bnrCntnWrap {
+            padding: 50px 20px;
+        }
+        .footerLogo {
+            width: 150px;
+            flex: 0 0 150px;
+            height: 90px;
+        }
+        .ftHead>h4 {
+            font-size: 16px;
+            color: #007B3F;
+        }
+       .navLogo{
+        height: 70px;
+       }
+        .navLink{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 16px;
+        }
+        .navLink:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+        .subNav{
+            position: static;
+            width: 100%;
+            background-color: #24282f;
+            text-align: left;
+            border-top: 1px solid #007b3e;
+            padding: 0;
+            display: none;
+        }
+        .navItem.hasDropdown .navLink{
+            text-decoration: none;
+            color: #59b477;
+        }
+        /* .hasDropdown .subNav{
+            display: block;
+        } */
+         .snItem{
+            padding: 8px 20px;
+        }
+        .snItem + .snItem{
+            border-top: 1px solid #007b3e;
+        }
+        .fa-plus{
+            transition: ease-in-out 0.2s;
+            -webkit-transition: ease-in-out 0.2s;
+            -moz-transition: ease-in-out 0.2s;
+            -ms-transition: ease-in-out 0.2s;
+            -o-transition: ease-in-out 0.2s;
+}
+        /* .hasDropdown .snItem{
+            padding: 8px 20px;
+        }
+        .hasDropdown .snItem + .snItem{
+            border-top: 1px solid #007b3e;
+        }
+        .fa-plus{
+            transition: ease-in-out 0.2s;
+            -webkit-transition: ease-in-out 0.2s;
+            -moz-transition: ease-in-out 0.2s;
+            -ms-transition: ease-in-out 0.2s;
+            -o-transition: ease-in-out 0.2s;
+} */
+        .hasDropdown .fa-plus{
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+}
+        .menuIcon{
+            display: block;
+        }
+        .listWrap{
+            /* display: none; */
+            /* visibility: hidden; */
+            z-index: 99;
+            opacity: 0;
+            position: fixed;
+            top: calc(75px);
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            left: 100%;
+            transition: ease-in-out 0.4s;
+            -webkit-transition: ease-in-out 0.4s;
+            -moz-transition: ease-in-out 0.4s;
+            -ms-transition: ease-in-out 0.4s;
+            -o-transition: ease-in-out 0.4s;
+            height: calc(100vh - 75px);
+}
+        .listWrap.open{
+            /* display: block; */
+            /* visibility: visible; */
+            opacity: 1;
+            left: 0;
+            overflow: auto;
+            /* height: calc(100vh - 75px); */
+        }
+        .navWrap{
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navList{
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .navItem {
+            border-bottom: 1px solid #007b3e;
+        }
+        .newsLeft, .newsRight {
+            padding: 0 30px 0 30px;
+        }
+    }
+    @media (max-width:767px) {
+        .heading>h1{
+            font-size: 38px;
+        }
+        body:has(.listWrap.open){
+            overflow: hidden;
+        }
+        .navButn{
+            width: 100%;
+        }
+        .newsInner{
+            flex-direction: column;
+        }
+        .newsLeft{
+            margin-bottom: 20px;
+        }
+        .newsLeft, .newsRight {
+            padding: 0 8px 0 8px;
+            width: 100%;
+            text-align: center;
+        }
+        .newsRight::before{
+            visibility: hidden;
+        }
+        .ftBox {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footerLogo {
+            width: 150px;
+            flex: 0 0 90px;
+            height: 90px;
+        }
+        .leftFt {
+            justify-content: center;
+            flex-direction: column;
+        }
+        .ftCntnt {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footerWrap {
+            padding:  0;
+        }
+        .prmryBtn+.prmryBtn{
+            margin-top: 10px;
+        }
+    }
+    @media (max-width:580px) {
+        .csCard{
+            flex-direction: column;
+        }
+        .csImg {
+            width: 100%;
+            flex: 0 0 100%;
+            height: 150px;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+/* =================*********** Media Queries Ends Here =================*********** */
+/* =================*********** Media Queries Ends Here =================*********** */
+/* =================*********** Media Queries Ends Here =================*********** */

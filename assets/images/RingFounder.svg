@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 126.91 126.91" style="enable-background:new 0 0 126.91 126.91;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000158738458494376447900000001565201657902741170_);fill:none;stroke:#007B3E;stroke-width:2.214;}
+	
+		.st1{clip-path:url(#SVGID_00000158738458494376447900000001565201657902741170_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-miterlimit:10;}
+	
+		.st2{clip-path:url(#SVGID_00000158738458494376447900000001565201657902741170_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#007B3E;stroke-width:2.12;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" y="0" width="126.92" height="126.92"/>
+	</defs>
+	<clipPath id="SVGID_00000110471211298184424020000015328422004510142900_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<circle style="clip-path:url(#SVGID_00000110471211298184424020000015328422004510142900_);fill:none;stroke:#007B3E;stroke-width:2.214;" cx="63.46" cy="63.46" r="62.35"/>
+	
+		<path style="clip-path:url(#SVGID_00000110471211298184424020000015328422004510142900_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-miterlimit:10;" d="
+		M38.4,33.39v60.14c0,1.84,1.49,3.34,3.34,3.34h43.43c1.85,0,3.34-1.5,3.34-3.34V45.08L73.48,30.05H41.74
+		C39.9,30.05,38.4,31.54,38.4,33.39z"/>
+	
+		<path style="clip-path:url(#SVGID_00000110471211298184424020000015328422004510142900_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M88.51,45.08L73.48,30.05v11.69c0,1.85,1.5,3.34,3.34,3.34H88.51z"/>
+</g>
+<path class="st3" d="M49.9,64.84l3.34,3.34l8.35-8.35 M62.43,84.88h20.04 M62.43,78.2h20.04 M62.43,51.48h20.04 M62.43,44.79h5.85
+	 M62.43,68.18h20.04 M64.93,61.5h17.54 M54.91,86.55H44.89V76.53h10.02V86.55z M48.23,69.85h-3.34V59.83h10.02 M54.91,53.15H44.89
+	V43.12h10.02V53.15z"/>
+</svg>
