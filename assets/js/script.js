@@ -8,4 +8,9 @@ $(document).ready(function () {
         $( this ).closest('.navItem').toggleClass( "hasDropdown" );
         $( this ).closest('.navItem').find('.subNav').slideToggle();
       });
+      $('.csItem').click(function() {
+        let tabId = $( this ).attr('attr-tab');
+        $('.csDetail').hide();
+        $('#'+tabId ).fadeIn();
+      });
 });

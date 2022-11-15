@@ -278,6 +278,7 @@ body{
 .content>p{
     font-family: JosefinSans-light;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 .content.sm>p{
     font-family: Cardo-Regular;
@@ -315,7 +316,74 @@ body{
 }
 /* =================*********** Common Styling Ends Here ***********================= */
 
-
+/* =================*********** same Page Styling Starts Here ***********================= */
+.csDetail{
+    display: none;
+}
+.csDetail:first-child{
+    display: block;
+}
+.csItem {
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.csItem.scndryItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.csItem+.csItem{
+    border-top: 1px solid #000;
+}
+.scndryItem+.scndryItem{
+    border-color: #007b3e;
+}
+.csTxt>p {
+    font-family: 'Cardo-Italic';
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.csDate.lg>time {
+    font-family: 'JosefinSans-SemiBold';
+    font-size: 22px;
+}
+.csDate>time {
+    font-family: 'JosefinSans-SemiBold';
+    position: relative;
+}
+.csItem .csDate>time::before {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 46%;
+    width: 10px;
+    height: 10px;
+    content: "";
+    left: -14px;
+    background: #007b3e;
+}
+.csTitle>h4{
+    font-size: 16px;
+    color: #007b3e;
+}
+.csLogo{
+    width: 60px;
+    height: 60px;
+    flex: 0 0 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    border:1px solid #007b3e;
+    margin-right:16px ;
+}
+.csLogo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* =================*********** Min-width Media Query Starts Here ***********================= */
 @media (min-width:991px) {
     .subNav {
