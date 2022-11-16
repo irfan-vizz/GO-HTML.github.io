@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="navOuterwrap">
+    <section class="navWrap">
+      <div class="logoArea">
+        <div class="navLogo">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 597 360" style="enable-background:new 0 0 597 360;" xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: #fff;
+              }
+
+              .st1 {
+                fill: none;
+                stroke: #007b3e;
+                stroke-width: 6;
+                stroke-miterlimit: 10;
+              }
+            </style>
+            <g>
+              <g>
+                <path class="st0"
+                  d="M224.57,168.37v9.75h-39.71v-57.19h38.99v9.75h-27.87v13.77h24.08v9.02h-24.08v14.9H224.57z" />
+                <path class="st0" d="M250.27,178.52c-4.19,0-7.99-0.8-11.4-2.42c-3.41-1.61-6.34-3.8-8.78-6.57c-2.44-2.76-4.34-5.88-5.68-9.34
+                  c-1.34-3.46-2.01-7.02-2.01-10.67c0-3.81,0.71-7.45,2.13-10.91c1.42-3.46,3.38-6.55,5.88-9.26c2.5-2.71,5.45-4.86,8.86-6.44
+                  c3.41-1.58,7.15-2.38,11.24-2.38c4.13,0,7.91,0.83,11.32,2.5c3.41,1.67,6.32,3.89,8.74,6.69c2.42,2.79,4.3,5.91,5.64,9.34
+                  c1.34,3.44,2.01,6.98,2.01,10.63c0,3.76-0.7,7.37-2.09,10.83c-1.4,3.46-3.34,6.55-5.84,9.26c-2.5,2.71-5.45,4.85-8.86,6.4
+                  C258.01,177.74,254.29,178.52,250.27,178.52z M233.67,149.52c0,2.47,0.38,4.86,1.13,7.17c0.75,2.31,1.84,4.36,3.26,6.16
+                  c1.42,1.8,3.17,3.22,5.24,4.27c2.07,1.05,4.42,1.57,7.05,1.57c2.68,0,5.07-0.55,7.17-1.65c2.09-1.1,3.84-2.58,5.24-4.43
+                  c1.4-1.85,2.46-3.92,3.18-6.2c0.73-2.28,1.09-4.58,1.09-6.89c0-2.47-0.39-4.85-1.17-7.13c-0.78-2.28-1.88-4.32-3.3-6.12
+                  c-1.42-1.8-3.17-3.22-5.24-4.27c-2.07-1.05-4.39-1.57-6.97-1.57c-2.74,0-5.14,0.55-7.21,1.65c-2.07,1.1-3.8,2.56-5.2,4.39
+                  c-1.4,1.83-2.46,3.87-3.18,6.12C234.04,144.85,233.67,147.16,233.67,149.52z" />
+                <path class="st0"
+                  d="M282,178.11v-57.19h25.29c2.63,0,5.06,0.54,7.29,1.61c2.23,1.08,4.16,2.53,5.8,4.35c1.64,1.83,2.9,3.87,3.79,6.12
+                  c0.89,2.26,1.33,4.57,1.33,6.93c0,2.42-0.42,4.74-1.25,6.97c-0.83,2.23-2.03,4.18-3.58,5.84c-1.56,1.67-3.38,2.95-5.48,3.87
+                  l13.05,21.51H316l-11.76-19.17h-11.12v19.17H282z M293.12,149.2h13.93c1.4,0,2.63-0.42,3.71-1.25c1.07-0.83,1.93-1.95,2.58-3.34
+                  s0.97-2.95,0.97-4.67c0-1.83-0.38-3.42-1.13-4.79c-0.75-1.37-1.71-2.46-2.86-3.26c-1.16-0.81-2.4-1.21-3.75-1.21h-13.45V149.2z" />
+                <path class="st0" d="M352.57,178.52c-3.71,0-7.21-0.75-10.51-2.25c-3.3-1.5-6.2-3.58-8.7-6.24s-4.44-5.76-5.84-9.3
+                  c-1.4-3.54-2.09-7.38-2.09-11.52c0-3.92,0.7-7.61,2.09-11.08c1.4-3.46,3.36-6.51,5.88-9.14c2.52-2.63,5.48-4.7,8.86-6.2
+                  c3.38-1.5,7.06-2.26,11.04-2.26c5.37,0,9.97,1.14,13.81,3.42c3.84,2.28,6.73,5.3,8.66,9.06l-8.3,6.12
+                  c-1.45-2.85-3.48-5.02-6.08-6.52c-2.61-1.5-5.44-2.26-8.5-2.26c-2.42,0-4.62,0.51-6.6,1.53c-1.99,1.02-3.71,2.42-5.16,4.19
+                  c-1.45,1.77-2.57,3.81-3.34,6.12c-0.78,2.31-1.17,4.75-1.17,7.33c0,2.74,0.42,5.26,1.25,7.57c0.83,2.31,2.01,4.32,3.54,6.04
+                  c1.53,1.72,3.31,3.08,5.36,4.07c2.04,1,4.29,1.49,6.77,1.49c2.9,0,5.68-0.75,8.34-2.25c2.66-1.5,5.14-3.71,7.45-6.61v10.96
+                  C364.54,175.94,358.96,178.52,352.57,178.52z M368.51,156.85H357v-8.14h20.7v29.4h-9.18V156.85z" />
+              </g>
+              <g>
+                <path class="st0" d="M382.21,178.11v-57.19h11.12v57.19H382.21z" />
+                <path class="st0" d="M415.15,120.92h11.28l21.02,57.19h-11.44l-4.75-14.26h-21l-4.78,14.26h-11.44L415.15,120.92z M428.66,156.04l-7.87-23.6
+                  l-7.91,23.6H428.66z" />
+              </g>
+              <g>
+                <path class="st0" d="M200.73,180.93h11.28l21.02,57.19h-11.44l-4.75-14.26h-21l-4.78,14.26h-11.44L200.73,180.93z M214.23,216.05l-7.87-23.6
+                  l-7.91,23.6H214.23z" />
+                <path class="st0"
+                  d="M234.48,238.13v-57.19h11.12v27.18l24-27.26h12.24l-21.91,25.41l23.28,31.86h-12.57l-17.8-24.68l-7.25,7.58v17.1H234.48z" />
+              </g>
+            </g>
+            <g>
+              <g>
+                <path class="st0" d="M155.06,178.52c-3.71,0-7.21-0.75-10.51-2.25c-3.3-1.5-6.2-3.58-8.7-6.24s-4.44-5.76-5.84-9.3
+                  c-1.4-3.54-2.09-7.38-2.09-11.52c0-3.92,0.7-7.61,2.09-11.08c1.4-3.46,3.36-6.51,5.88-9.14c2.52-2.63,5.48-4.7,8.86-6.2
+                  c3.38-1.5,7.06-2.26,11.04-2.26c5.37,0,9.97,1.14,13.81,3.42c3.84,2.28,6.73,5.3,8.66,9.06l-8.3,6.12
+                  c-1.45-2.85-3.48-5.02-6.08-6.52c-2.61-1.5-5.44-2.26-8.5-2.26c-2.42,0-4.62,0.51-6.6,1.53c-1.99,1.02-3.71,2.42-5.16,4.19
+                  c-1.45,1.77-2.57,3.81-3.34,6.12c-0.78,2.31-1.17,4.75-1.17,7.33c0,2.74,0.42,5.26,1.25,7.57c0.83,2.31,2.01,4.32,3.54,6.04
+                  c1.53,1.72,3.31,3.08,5.36,4.07c2.04,1,4.3,1.49,6.77,1.49c2.9,0,5.68-0.75,8.34-2.25c2.66-1.5,5.14-3.71,7.45-6.61v10.96
+                  C167.03,175.94,161.45,178.52,155.06,178.52z M171.01,156.85h-11.52v-8.14h20.7v29.4h-9.18V156.85z" />
+              </g>
+              <g>
+                <path class="st0" d="M155.7,238.53c-4.19,0-7.99-0.8-11.4-2.42c-3.41-1.61-6.34-3.8-8.78-6.57c-2.44-2.76-4.34-5.88-5.68-9.34
+                  c-1.34-3.46-2.01-7.02-2.01-10.67c0-3.81,0.71-7.45,2.13-10.91c1.42-3.46,3.38-6.55,5.88-9.26c2.5-2.71,5.45-4.86,8.86-6.44
+                  c3.41-1.58,7.15-2.38,11.24-2.38c4.13,0,7.91,0.83,11.32,2.5c3.41,1.67,6.32,3.89,8.74,6.69c2.42,2.79,4.3,5.91,5.64,9.34
+                  c1.34,3.44,2.01,6.98,2.01,10.63c0,3.76-0.7,7.37-2.09,10.83c-1.4,3.46-3.34,6.55-5.84,9.26c-2.5,2.71-5.45,4.85-8.86,6.4
+                  C163.45,237.75,159.73,238.53,155.7,238.53z M139.11,209.53c0,2.47,0.38,4.86,1.13,7.17c0.75,2.31,1.84,4.36,3.26,6.16
+                  c1.42,1.8,3.17,3.22,5.24,4.27c2.07,1.05,4.42,1.57,7.05,1.57c2.68,0,5.07-0.55,7.17-1.65c2.09-1.1,3.84-2.58,5.24-4.43
+                  c1.4-1.85,2.46-3.92,3.18-6.2c0.73-2.28,1.09-4.58,1.09-6.89c0-2.47-0.39-4.85-1.17-7.13c-0.78-2.28-1.88-4.32-3.3-6.12
+                  c-1.42-1.8-3.17-3.22-5.24-4.27c-2.07-1.05-4.39-1.57-6.97-1.57c-2.74,0-5.14,0.55-7.21,1.65c-2.07,1.1-3.8,2.56-5.2,4.39
+                  c-1.4,1.83-2.46,3.87-3.18,6.12C139.47,204.86,139.11,207.17,139.11,209.53z" />
+              </g>
+              <g>
+                <path class="st0"
+                  d="M297.49,238.22v-21.44h9.09c0.99,0,1.89,0.2,2.72,0.6c0.83,0.4,1.54,0.95,2.16,1.63
+                  c0.61,0.68,1.09,1.45,1.43,2.29c0.34,0.85,0.51,1.71,0.51,2.6c0,1.21-0.28,2.36-0.85,3.44c-0.56,1.09-1.34,1.97-2.33,2.66
+                  c-0.99,0.68-2.16,1.03-3.5,1.03h-5.07v7.19H297.49z M301.66,227.38h4.83c0.5,0,0.96-0.14,1.36-0.42c0.4-0.28,0.72-0.69,0.97-1.22
+                  c0.24-0.53,0.36-1.14,0.36-1.83c0-0.75-0.14-1.38-0.41-1.9s-0.62-0.92-1.06-1.18c-0.43-0.26-0.9-0.39-1.4-0.39h-4.65V227.38z" />
+                <path class="st0" d="M320.01,216.78h4.23l7.88,21.44h-4.29l-1.78-5.34h-7.87l-1.79,5.34h-4.29L320.01,216.78z M325.08,229.95
+                  l-2.95-8.85l-2.96,8.85H325.08z" />
+                <path class="st0" d="M333.88,238.22v-21.44h9.48c0.99,0,1.9,0.2,2.73,0.6c0.84,0.4,1.56,0.95,2.17,1.63
+                  c0.61,0.68,1.09,1.45,1.42,2.29s0.5,1.71,0.5,2.6c0,0.91-0.16,1.78-0.47,2.61c-0.31,0.84-0.76,1.57-1.34,2.19
+                  c-0.58,0.62-1.27,1.11-2.05,1.45l4.89,8.06h-4.59l-4.41-7.19h-4.17v7.19H333.88z M338.04,227.38h5.22c0.52,0,0.99-0.16,1.39-0.47
+                  c0.4-0.31,0.72-0.73,0.97-1.25c0.24-0.52,0.36-1.11,0.36-1.75c0-0.68-0.14-1.28-0.42-1.8c-0.28-0.51-0.64-0.92-1.07-1.22
+                  c-0.43-0.3-0.9-0.45-1.4-0.45h-5.04V227.38z" />
+                <path class="st0" d="M369.15,220.44h-6.85v17.79h-4.14v-17.79h-6.85v-3.65h17.85V220.44z" />
+                <path class="st0"
+                  d="M375.4,224.45v13.77h-4.17v-21.44h3.32l11.08,14.13v-14.1h4.17v21.41h-3.47L375.4,224.45z" />
+                <path class="st0"
+                  d="M408.58,234.57v3.65H393.7v-21.44h14.62v3.65h-10.45v5.16h9.03v3.38h-9.03v5.59H408.58z" />
+                <path class="st0" d="M411.27,238.22v-21.44h9.48c0.99,0,1.9,0.2,2.73,0.6c0.84,0.4,1.56,0.95,2.17,1.63
+                  c0.61,0.68,1.09,1.45,1.42,2.29s0.5,1.71,0.5,2.6c0,0.91-0.16,1.78-0.47,2.61c-0.31,0.84-0.76,1.57-1.34,2.19
+                  c-0.58,0.62-1.27,1.11-2.05,1.45l4.89,8.06h-4.59l-4.41-7.19h-4.17v7.19H411.27z M415.44,227.38h5.22c0.52,0,0.99-0.16,1.39-0.47
+                  c0.4-0.31,0.72-0.73,0.97-1.25c0.24-0.52,0.36-1.11,0.36-1.75c0-0.68-0.14-1.28-0.42-1.8c-0.28-0.51-0.64-0.92-1.07-1.22
+                  c-0.43-0.3-0.9-0.45-1.4-0.45h-5.04V227.38z" />
+                <path class="st0" d="M443.55,222.4c-0.14-0.14-0.4-0.33-0.77-0.57c-0.37-0.24-0.83-0.47-1.36-0.69c-0.53-0.22-1.11-0.42-1.74-0.59
+                  s-1.26-0.26-1.9-0.26c-1.13,0-1.98,0.21-2.55,0.63c-0.57,0.42-0.86,1.01-0.86,1.77c0,0.58,0.18,1.04,0.54,1.38
+                  s0.91,0.63,1.63,0.87c0.72,0.24,1.63,0.5,2.72,0.78c1.41,0.34,2.63,0.76,3.67,1.25c1.04,0.49,1.83,1.13,2.39,1.92
+                  c0.55,0.79,0.83,1.84,0.83,3.14c0,1.14-0.21,2.12-0.63,2.93c-0.42,0.81-1.01,1.47-1.75,1.97c-0.75,0.5-1.59,0.87-2.54,1.1
+                  c-0.95,0.23-1.95,0.35-3.02,0.35s-2.13-0.11-3.2-0.33c-1.07-0.22-2.09-0.54-3.08-0.95c-0.99-0.41-1.89-0.91-2.72-1.49l1.84-3.59
+                  c0.18,0.18,0.5,0.42,0.97,0.71s1.03,0.58,1.69,0.88c0.66,0.29,1.39,0.54,2.17,0.74s1.58,0.3,2.39,0.3c1.13,0,1.98-0.19,2.57-0.57
+                  c0.58-0.38,0.88-0.92,0.88-1.61c0-0.64-0.23-1.14-0.69-1.5c-0.46-0.36-1.11-0.68-1.93-0.95c-0.83-0.27-1.8-0.57-2.93-0.89
+                  c-1.35-0.38-2.48-0.81-3.38-1.28c-0.91-0.47-1.58-1.07-2.02-1.79c-0.44-0.72-0.66-1.62-0.66-2.71c0-1.46,0.35-2.69,1.04-3.68
+                  c0.69-0.99,1.64-1.74,2.82-2.25s2.51-0.77,3.96-0.77c1.01,0,1.96,0.11,2.85,0.33c0.9,0.22,1.74,0.51,2.52,0.88
+                  s1.49,0.75,2.11,1.18L443.55,222.4z" />
+              </g>
+            </g>
+            <rect x="109.29" y="80" class="st1" width="100%" height="100%" />
+          </svg>
+        </div>
+      </div>
+      <span class="menuIcon">
+        <a class="hamburger" href="#"><span></span></a>
+      </span>
+      <nav class="listWrap">
+        <ul class="navList">
+          <li class="navItem"><a class="navLink" href="javascript:(void)">APPROACH</a></li>
+          <li class="navItem"><a class="navLink" href="javascript:(void)">TEAM</a></li>
+          <li class="navItem">
+            <a class="navLink" href="javascript:(void)">SECTORS <i class="fa fa-plus"></i></a>
+            <ul class="subNav">
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Home Services</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Manufacturing</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Business Services</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Consumer Goods</a></li>
+            </ul>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="javascript:(void)">PARTNERSHIPS</a>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="javascript:(void)">SELLER CONSIDERATIONS <i class="fa fa-plus"></i></a>
+            <ul class="subNav">
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Valuation</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Options for Founders</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Sales Process</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">The Right Partner</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Post Sale Relationship</a></li>
+            </ul>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="javascript:(void)">INSIGHTS <i class="fa fa-plus"></i></a>
+            <ul class="subNav">
+              <li class="snItem"><a href="javascript:(void)" class="snLink">News</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Segment Reports</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Market Analysis</a></li>
+              <li class="snItem"><a href="javascript:(void)" class="snLink">Seller Best Practices</a></li>
+            </ul>
+          </li>
+        </ul>
+        <span class="navButn">
+          <button><i class="fa fa-send-o"></i> CONTACT</button>
+        </span>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section class="bnrSec teamBnr brdrBtmPrimry thin">
+      <div class="bnrInrWrap">
+        <div class="bnrCntnWrap invisibl two">
+          <div class="bnrLogo">
+            <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.28 841.89"
+              style="width:100px; height:100px;" xml:space="preserve">
+              <style type="text/css">
+                .st5 {
+                  fill: #FFFFFF;
+                }
+
+                .st6 {
+                  fill: #FFFFFF;
+                  stroke: #FFFFFF;
+                  stroke-width: 1.573;
+                }
+              </style>
+              <g>
+                <path class="st5"
+                  d="M306.05,410.51h-6.07v-4.2h10.91v15.18h-4.84V410.51z M297.64,421.69c-1.95,0-3.8-0.39-5.54-1.16
+                            s-3.27-1.85-4.59-3.22c-1.32-1.37-2.34-2.97-3.08-4.8c-0.74-1.83-1.1-3.81-1.1-5.95c0-2.02,0.37-3.93,1.1-5.72
+                            c0.74-1.79,1.77-3.36,3.1-4.72c1.33-1.36,2.89-2.42,4.67-3.2c1.78-0.78,3.72-1.16,5.82-1.16c2.83,0,5.26,0.59,7.28,1.77
+                            c2.02,1.18,3.54,2.74,4.56,4.68l-4.37,3.16c-0.76-1.47-1.83-2.59-3.21-3.37c-1.37-0.78-2.87-1.16-4.48-1.16
+                            c-1.27,0-2.43,0.26-3.48,0.79c-1.05,0.53-1.95,1.25-2.72,2.16c-0.76,0.92-1.35,1.97-1.76,3.16c-0.41,1.19-0.62,2.45-0.62,3.78
+                            c0,1.41,0.22,2.72,0.66,3.91c0.44,1.19,1.06,2.23,1.87,3.12c0.81,0.89,1.75,1.59,2.82,2.1c1.08,0.51,2.26,0.77,3.57,0.77
+                            c1.53,0,2.99-0.39,4.39-1.16c1.4-0.78,2.71-1.91,3.93-3.41v5.65C303.95,420.36,301.01,421.69,297.64,421.69" />
+                <path class="st5" d="M289.23,437.7c0,1.28,0.2,2.51,0.6,3.7c0.4,1.19,0.97,2.25,1.72,3.18c0.75,0.93,1.67,1.66,2.76,2.2
+                            c1.09,0.54,2.33,0.81,3.71,0.81c1.42,0,2.68-0.28,3.78-0.85c1.1-0.57,2.02-1.33,2.76-2.29c0.74-0.96,1.3-2.02,1.68-3.2
+                            c0.38-1.18,0.57-2.36,0.57-3.56c0-1.27-0.2-2.5-0.61-3.68c-0.41-1.18-0.99-2.23-1.74-3.16c-0.75-0.93-1.67-1.66-2.76-2.2
+                            c-1.09-0.54-2.31-0.81-3.67-0.81c-1.44,0-2.71,0.28-3.8,0.85s-2,1.32-2.74,2.27c-0.74,0.94-1.3,2-1.68,3.16
+                            C289.42,435.29,289.23,436.48,289.23,437.7 M297.98,452.67c-2.21,0-4.21-0.42-6.01-1.25c-1.8-0.83-3.34-1.96-4.63-3.39
+                            c-1.29-1.43-2.29-3.04-2.99-4.82c-0.71-1.79-1.06-3.62-1.06-5.51c0-1.97,0.38-3.85,1.12-5.63c0.75-1.79,1.78-3.38,3.1-4.78
+                            c1.32-1.4,2.87-2.51,4.67-3.33c1.8-0.82,3.77-1.23,5.92-1.23c2.18,0,4.17,0.43,5.97,1.29c1.8,0.86,3.33,2.01,4.61,3.45
+                            c1.27,1.44,2.26,3.05,2.97,4.82c0.71,1.77,1.06,3.6,1.06,5.49c0,1.94-0.37,3.8-1.1,5.59c-0.74,1.79-1.76,3.38-3.08,4.78
+                            c-1.32,1.4-2.87,2.5-4.67,3.3C302.06,452.27,300.1,452.67,297.98,452.67" />
+              </g>
+              <line class="st6" x1="263.48" y1="377.61" x2="285.09" y2="377.61" />
+              <line class="st6" x1="264.08" y1="398.62" x2="264.08" y2="377.01" />
+              <line class="st6" x1="332.52" y1="377.61" x2="310.91" y2="377.61" />
+              <line class="st6" x1="331.92" y1="398.62" x2="331.92" y2="377.01" />
+              <line class="st6" x1="263.48" y1="464.39" x2="285.09" y2="464.39" />
+              <line class="st6" x1="264.08" y1="443.38" x2="264.08" y2="464.99" />
+              <line class="st6" x1="332.52" y1="464.39" x2="310.91" y2="464.39" />
+              <line class="st6" x1="331.92" y1="443.38" x2="331.92" y2="464.99" />
+            </svg>
+          </div>
+          <div class="heading">
+            <h1>
+              Seller Considerations
+            </h1>
+          </div>
+          <div class="bnrCntnt mt-3">
+            <p class="JosefinLight">Accuptur porae quo dolorest optatur? Ur rem rescidit volendunt explitate voluptio
+              <br class="d-none d-lg-inline">
+              verem raes et re qui as eum dolorro etusam, ipsuntia vitiur? </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container text-center mt-md-5 pt-5 pt-lg-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="heading">
+              <h2>The Right Partner</h2>
+            </div>
+            <div class="content">
+              <p class="">As a business owner, finding the right partner to take the next step with can be tricky—how do
+                you find someone<br class="d-none d-lg-inline">
+                who honestly shares the same passion for your business, love for your people and vision for the future?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-4 py-lg-4">
+        <div class="divder thin"></div>
+      </div>
+    </section>
+    <section>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-xl-10 m-auto pb-5">
+            <div class="row">
+              <div class="col-lg-4  mb-4 mb-lg-0">
+                <div class="csListing">
+                  <div class="listingInner mt-5">
+                    <div class="subHeading sm">
+                      <h3 class="JosefinSemiBold">ADDITIONAL INFORMATION <br class="d-none d-lg-inline">
+                        REGARDING PARTNERSHIPS</h3>
+                    </div>
+                    <div class="csItem scndryItem" attr-tab="csTab-1">
+                      <div class="csLogo"><img src="./assets/images/roads.jpg" alt=""></div>
+                      <div class="csTxtWrap">
+                        <div class="csTitle">
+                            <h4>Partner Considerations: Manufacturing</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="csItem scndryItem" attr-tab="csTab-2">
+                      <div class="csLogo"><img src="./assets/images/shutterstock_1501235675(1).jpg" alt=""></div>
+                      <div class="csTxtWrap">
+                        <div class="csTitle">
+                            <h4>Partner Considerations: Home Services</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="csItem scndryItem" attr-tab="csTab-3">
+                      <div class="csLogo"><img src="./assets/images/roads.jpg" alt=""></div>
+                      <div class="csTxtWrap">
+                        <div class="csTitle">
+                            <h4>Kinds of Partnerships                            </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="csItem scndryItem" attr-tab="csTab-4">
+                      <div class="csLogo"><img src="./assets/images/shutterstock_1501235675(1).jpg" alt=""></div>
+                      <div class="csTxtWrap">
+                        <div class="csTitle">
+                            <h4>Where to Find Partnerships</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="divder thick mb-5"></div>
+                  <div class="subHeading sm">
+                    <h3 class="JosefinSemiBold">PARTNERNISHIP VIDEO</h3>
+                  </div>
+                  <div class="content sm">
+                    <p>Watch how these values came to life with our investment in Sailfish Boats.</p>
+                  </div>
+                  <div class="videoWrap mb-5">
+                    <!-- <video src=""></video> -->
+                    <img src="./assets/images/shutterstock_1501235675(1).jpg" alt="">
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="caseStudyWrap">
+                  <div id="csTab-1" class="csDetail">
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Not all private equity firms are created equal, but if you find the right
+                        partner, they can help you</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">In all our years of work with founders, we’ve found a few key shared
+                        values that have propelled our experiences to valuable, rewarding partnerships. Below are some
+                        of the key ways in which we feel we align well with founder and family-owned businesses.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">People First</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Each of our partner’s businesses rests on a delicate system of trusted
+                        friends, supportive family, and years of
+                        hard work. This structure provides the needed support and fuel for each business to thrive, and
+                        each individual plays a key role in bringing that success to fruition.
+                      </p>
+                      <p class="JosefinLight">
+                        Rather than wiping it clean, we aim to enhance that system. Through countless hours of
+                        discussing, meeting,
+                        and getting to know the people that bring your business to life, only then are we able to reach
+                        our goal of
+                        supporting your legacy.
+                      </p>
+                    </div>
+                    <div class="heading mb-4">
+                      <h2 class="CardoItalic">We put our hearts and souls into
+                        everything we do for your legacy.</h2>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Legacy Matters</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">A legacy is more than your business’s age. It’s your story, brimming with
+                        lively characters, thrilling tales and
+                        countless good memories. These legacies are what bring your business to life. Georgia Oak
+                        understands the
+                        value of long standing traditions passed through generations - hence, our slogan: Grow Your
+                        Legacy. We’re
+                        southern locals - we share the desire to preserve and uphold the legacies founders worked so
+                        hard to build. As
+                        the storytellers, our team works to preserve the liveliness and impact of your business’s legacy
+                        and pave the
+                        way for a promising future.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Local Impact</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Your business plays a key role in your community’s delicate ecosystem.
+                        With proper guidance, the impact of
+                        these businesses can greatly benefit their hometown. In our years of work with founders, we have
+                        found methods of maximizing this impact to be of service to all aspects of their communities.
+                        From job creation to local
+                        volunteering, our team strives to give back through our business.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">The Big One: Passion</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Founders and family business owners share a fervent passion for what they
+                        do, which is what makes the partnership process so inspiring. Despite Mr. Corleone’s advice, to
+                        us, “strictly business” means getting personal. We
+                        put our hearts and souls into everything we do for your legacy, from the first introduction to
+                        well past close
+                        date. To put it simply, we love our business because we love supporting other businesses, and we
+                        know we’ve
+                        struck gold when we find a partner that shares that level of passion.
+                      </p>
+                      <p class="JosefinLight">
+                        Selling even a part of the legacy founders worked tirelessly for can be scary for many and
+                        emotional for most.
+                        Finding a partner aligned with your business’s motivations, culture, and values can make this
+                        process easier –
+                        exciting, even.
+
+                      </p>
+                    </div>
+                  </div>
+                  <div id="csTab-2" class="csDetail">
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Not all private equity firms are created equal, but if you find the right
+                        partner, they can help you</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">In all our years of work with founders, we’ve found a few key shared
+                        values that have propelled our experiences to valuable, rewarding partnerships. Below are some
+                        of the key ways in which we feel we align well with founder and family-owned businesses.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">People First</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Each of our partner’s businesses rests on a delicate system of trusted
+                        friends, supportive family, and years of
+                        hard work. This structure provides the needed support and fuel for each business to thrive, and
+                        each individual plays a key role in bringing that success to fruition.
+                      </p>
+                      <p class="JosefinLight">
+                        Rather than wiping it clean, we aim to enhance that system. Through countless hours of
+                        discussing, meeting,
+                        and getting to know the people that bring your business to life, only then are we able to reach
+                        our goal of
+                        supporting your legacy.
+                      </p>
+                    </div>
+                    <div class="heading mb-4">
+                      <h2 class="CardoItalic">We put our hearts and souls into
+                        everything we do for your legacy.</h2>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Legacy Matters</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">A legacy is more than your business’s age. It’s your story, brimming with
+                        lively characters, thrilling tales and
+                        countless good memories. These legacies are what bring your business to life. Georgia Oak
+                        understands the
+                        value of long standing traditions passed through generations - hence, our slogan: Grow Your
+                        Legacy. We’re
+                        southern locals - we share the desire to preserve and uphold the legacies founders worked so
+                        hard to build. As
+                        the storytellers, our team works to preserve the liveliness and impact of your business’s legacy
+                        and pave the
+                        way for a promising future.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Local Impact</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Your business plays a key role in your community’s delicate ecosystem.
+                        With proper guidance, the impact of
+                        these businesses can greatly benefit their hometown. In our years of work with founders, we have
+                        found methods of maximizing this impact to be of service to all aspects of their communities.
+                        From job creation to local
+                        volunteering, our team strives to give back through our business.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">The Big One: Passion</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Founders and family business owners share a fervent passion for what they
+                        do, which is what makes the partnership process so inspiring. Despite Mr. Corleone’s advice, to
+                        us, “strictly business” means getting personal. We
+                        put our hearts and souls into everything we do for your legacy, from the first introduction to
+                        well past close
+                        date. To put it simply, we love our business because we love supporting other businesses, and we
+                        know we’ve
+                        struck gold when we find a partner that shares that level of passion.
+                      </p>
+                      <p class="JosefinLight">
+                        Selling even a part of the legacy founders worked tirelessly for can be scary for many and
+                        emotional for most.
+                        Finding a partner aligned with your business’s motivations, culture, and values can make this
+                        process easier –
+                        exciting, even.
+
+                      </p>
+                    </div>
+                  </div>
+                  <div id="csTab-3" class="csDetail">
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Not all private equity firms are created equal, but if you find the right
+                        partner, they can help you</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">In all our years of work with founders, we’ve found a few key shared
+                        values that have propelled our experiences to valuable, rewarding partnerships. Below are some
+                        of the key ways in which we feel we align well with founder and family-owned businesses.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">People First</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Each of our partner’s businesses rests on a delicate system of trusted
+                        friends, supportive family, and years of
+                        hard work. This structure provides the needed support and fuel for each business to thrive, and
+                        each individual plays a key role in bringing that success to fruition.
+                      </p>
+                      <p class="JosefinLight">
+                        Rather than wiping it clean, we aim to enhance that system. Through countless hours of
+                        discussing, meeting,
+                        and getting to know the people that bring your business to life, only then are we able to reach
+                        our goal of
+                        supporting your legacy.
+                      </p>
+                    </div>
+                    <div class="heading mb-4">
+                      <h2 class="CardoItalic">We put our hearts and souls into
+                        everything we do for your legacy.</h2>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Legacy Matters</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">A legacy is more than your business’s age. It’s your story, brimming with
+                        lively characters, thrilling tales and
+                        countless good memories. These legacies are what bring your business to life. Georgia Oak
+                        understands the
+                        value of long standing traditions passed through generations - hence, our slogan: Grow Your
+                        Legacy. We’re
+                        southern locals - we share the desire to preserve and uphold the legacies founders worked so
+                        hard to build. As
+                        the storytellers, our team works to preserve the liveliness and impact of your business’s legacy
+                        and pave the
+                        way for a promising future.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Local Impact</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Your business plays a key role in your community’s delicate ecosystem.
+                        With proper guidance, the impact of
+                        these businesses can greatly benefit their hometown. In our years of work with founders, we have
+                        found methods of maximizing this impact to be of service to all aspects of their communities.
+                        From job creation to local
+                        volunteering, our team strives to give back through our business.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">The Big One: Passion</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Founders and family business owners share a fervent passion for what they
+                        do, which is what makes the partnership process so inspiring. Despite Mr. Corleone’s advice, to
+                        us, “strictly business” means getting personal. We
+                        put our hearts and souls into everything we do for your legacy, from the first introduction to
+                        well past close
+                        date. To put it simply, we love our business because we love supporting other businesses, and we
+                        know we’ve
+                        struck gold when we find a partner that shares that level of passion.
+                      </p>
+                      <p class="JosefinLight">
+                        Selling even a part of the legacy founders worked tirelessly for can be scary for many and
+                        emotional for most.
+                        Finding a partner aligned with your business’s motivations, culture, and values can make this
+                        process easier –
+                        exciting, even.
+
+                      </p>
+                    </div>
+                  </div>
+                  <div id="csTab-4" class="csDetail">
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Not all private equity firms are created equal, but if you find the right
+                        partner, they can help you</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">In all our years of work with founders, we’ve found a few key shared
+                        values that have propelled our experiences to valuable, rewarding partnerships. Below are some
+                        of the key ways in which we feel we align well with founder and family-owned businesses.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">People First</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Each of our partner’s businesses rests on a delicate system of trusted
+                        friends, supportive family, and years of
+                        hard work. This structure provides the needed support and fuel for each business to thrive, and
+                        each individual plays a key role in bringing that success to fruition.
+                      </p>
+                      <p class="JosefinLight">
+                        Rather than wiping it clean, we aim to enhance that system. Through countless hours of
+                        discussing, meeting,
+                        and getting to know the people that bring your business to life, only then are we able to reach
+                        our goal of
+                        supporting your legacy.
+                      </p>
+                    </div>
+                    <div class="heading mb-4">
+                      <h2 class="CardoItalic">We put our hearts and souls into
+                        everything we do for your legacy.</h2>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Legacy Matters</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">A legacy is more than your business’s age. It’s your story, brimming with
+                        lively characters, thrilling tales and
+                        countless good memories. These legacies are what bring your business to life. Georgia Oak
+                        understands the
+                        value of long standing traditions passed through generations - hence, our slogan: Grow Your
+                        Legacy. We’re
+                        southern locals - we share the desire to preserve and uphold the legacies founders worked so
+                        hard to build. As
+                        the storytellers, our team works to preserve the liveliness and impact of your business’s legacy
+                        and pave the
+                        way for a promising future.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">Local Impact</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Your business plays a key role in your community’s delicate ecosystem.
+                        With proper guidance, the impact of
+                        these businesses can greatly benefit their hometown. In our years of work with founders, we have
+                        found methods of maximizing this impact to be of service to all aspects of their communities.
+                        From job creation to local
+                        volunteering, our team strives to give back through our business.
+                      </p>
+                    </div>
+                    <div class="subHeading">
+                      <h3 class="CardoBold">The Big One: Passion</h3>
+                    </div>
+                    <div class="content sm">
+                      <p class="JosefinLight">Founders and family business owners share a fervent passion for what they
+                        do, which is what makes the partnership process so inspiring. Despite Mr. Corleone’s advice, to
+                        us, “strictly business” means getting personal. We
+                        put our hearts and souls into everything we do for your legacy, from the first introduction to
+                        well past close
+                        date. To put it simply, we love our business because we love supporting other businesses, and we
+                        know we’ve
+                        struck gold when we find a partner that shares that level of passion.
+                      </p>
+                      <p class="JosefinLight">
+                        Selling even a part of the legacy founders worked tirelessly for can be scary for many and
+                        emotional for most.
+                        Finding a partner aligned with your business’s motivations, culture, and values can make this
+                        process easier –
+                        exciting, even.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="newsWrap">
+      <div class="newsInner">
+        <div class="newsLeft">
+          <div class="newsCard">
+            <div class="newsHead">
+              <span>Latest News</span>
+            </div>
+            <div class="newsTxt">
+              <span>
+                Read the latest news from Georgia Oak.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="newsRight">
+          <div class="newsCard">
+            <div class="newsHead">
+              <span>Sector Analysis</span>
+            </div>
+            <div class="newsTxt">
+              <span>
+                Home Services
+              </span>
+              <span>
+                Business Services
+              </span>
+              <span>
+                Manufacturing
+              </span>
+              <span>
+                Consumer Goods
+              </span>
+            </div>
+          </div>
+          <div class="newsCard">
+            <div class="newsHead">
+              <span>Seller Best Practices</span>
+            </div>
+            <div class="newsTxt">
+              <span>
+                Valuation
+              </span>
+              <span>
+                Sales Process
+              </span>
+              <span>
+                The Right Partner
+              </span>
+              <span>
+                Founder Options
+              </span>
+              <span>
+                Post Sale Relationship
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footerWrap">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-xl-10 m-auto">
+            <div class="row">
+              <div class="col-lg-5 col-md-5">
+                <div class="leftFt">
+                  <div class="footerLogo">
+                    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 597 360"
+                      style="enable-background:new 0 0 597 360;" xml:space="preserve">
+                      <style type="text/css">
+                        .st3 {
+                          fill: #007B3F;
+                        }
+
+                        .st4 {
+                          fill: none;
+                          stroke: #000000;
+                          stroke-width: 6;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <g>
+                        <g>
+                          <path
+                            d="M224.57,168.37v9.75h-39.71v-57.19h38.99v9.75h-27.87v13.77h24.08v9.02h-24.08v14.9H224.57z" />
+                          <path d="M250.27,178.52c-4.19,0-7.99-0.8-11.4-2.42c-3.41-1.61-6.34-3.8-8.78-6.57c-2.44-2.76-4.34-5.88-5.68-9.34
+                                  c-1.34-3.46-2.01-7.02-2.01-10.67c0-3.81,0.71-7.45,2.13-10.91c1.42-3.46,3.38-6.55,5.88-9.26c2.5-2.71,5.45-4.86,8.86-6.44
+                                  c3.41-1.58,7.15-2.38,11.24-2.38c4.13,0,7.91,0.83,11.32,2.5c3.41,1.67,6.32,3.89,8.74,6.69c2.42,2.79,4.3,5.91,5.64,9.34
+                                  c1.34,3.44,2.01,6.98,2.01,10.63c0,3.76-0.7,7.37-2.09,10.83c-1.4,3.46-3.34,6.55-5.84,9.26c-2.5,2.71-5.45,4.85-8.86,6.4
+                                  C258.01,177.74,254.29,178.52,250.27,178.52z M233.67,149.52c0,2.47,0.38,4.86,1.13,7.17c0.75,2.31,1.84,4.36,3.26,6.16
+                                  c1.42,1.8,3.17,3.22,5.24,4.27c2.07,1.05,4.42,1.57,7.05,1.57c2.68,0,5.07-0.55,7.17-1.65c2.09-1.1,3.84-2.58,5.24-4.43
+                                  c1.4-1.85,2.46-3.92,3.18-6.2c0.73-2.28,1.09-4.58,1.09-6.89c0-2.47-0.39-4.85-1.17-7.13c-0.78-2.28-1.88-4.32-3.3-6.12
+                                  c-1.42-1.8-3.17-3.22-5.24-4.27c-2.07-1.05-4.39-1.57-6.97-1.57c-2.74,0-5.14,0.55-7.21,1.65c-2.07,1.1-3.8,2.56-5.2,4.39
+                                  c-1.4,1.83-2.46,3.87-3.18,6.12C234.04,144.85,233.67,147.16,233.67,149.52z" />
+                          <path
+                            d="M282,178.11v-57.19h25.29c2.63,0,5.06,0.54,7.29,1.61c2.23,1.08,4.16,2.53,5.8,4.35c1.64,1.83,2.9,3.87,3.79,6.12
+                                  c0.89,2.26,1.33,4.57,1.33,6.93c0,2.42-0.42,4.74-1.25,6.97c-0.83,2.23-2.03,4.18-3.58,5.84c-1.56,1.67-3.38,2.95-5.48,3.87
+                                  l13.05,21.51H316l-11.76-19.17h-11.12v19.17H282z M293.12,149.2h13.93c1.4,0,2.63-0.42,3.71-1.25c1.07-0.83,1.93-1.95,2.58-3.34
+                                  s0.97-2.95,0.97-4.67c0-1.83-0.38-3.42-1.13-4.79c-0.75-1.37-1.71-2.46-2.86-3.26c-1.16-0.81-2.4-1.21-3.75-1.21h-13.45V149.2z" />
+                          <path
+                            d="M352.57,178.52c-3.71,0-7.21-0.75-10.51-2.25c-3.3-1.5-6.2-3.58-8.7-6.24s-4.44-5.76-5.84-9.3
+                                  c-1.4-3.54-2.09-7.38-2.09-11.52c0-3.92,0.7-7.61,2.09-11.08c1.4-3.46,3.36-6.51,5.88-9.14c2.52-2.63,5.48-4.7,8.86-6.2
+                                  c3.38-1.5,7.06-2.26,11.04-2.26c5.37,0,9.97,1.14,13.81,3.42c3.84,2.28,6.73,5.3,8.66,9.06l-8.3,6.12
+                                  c-1.45-2.85-3.48-5.02-6.08-6.52c-2.61-1.5-5.44-2.26-8.5-2.26c-2.42,0-4.62,0.51-6.6,1.53c-1.99,1.02-3.71,2.42-5.16,4.19
+                                  c-1.45,1.77-2.57,3.81-3.34,6.12c-0.78,2.31-1.17,4.75-1.17,7.33c0,2.74,0.42,5.26,1.25,7.57c0.83,2.31,2.01,4.32,3.54,6.04
+                                  c1.53,1.72,3.31,3.08,5.36,4.07c2.04,1,4.29,1.49,6.77,1.49c2.9,0,5.68-0.75,8.34-2.25c2.66-1.5,5.14-3.71,7.45-6.61v10.96
+                                  C364.54,175.94,358.96,178.52,352.57,178.52z M368.51,156.85H357v-8.14h20.7v29.4h-9.18V156.85z" />
+                        </g>
+                        <g>
+                          <path d="M382.21,178.11v-57.19h11.12v57.19H382.21z" />
+                          <path d="M415.15,120.92h11.28l21.02,57.19h-11.44l-4.75-14.26h-21l-4.78,14.26h-11.44L415.15,120.92z M428.66,156.04l-7.87-23.6
+                                  l-7.91,23.6H428.66z" />
+                        </g>
+                        <g>
+                          <path d="M200.73,180.93h11.28l21.02,57.19h-11.44l-4.75-14.26h-21l-4.78,14.26h-11.44L200.73,180.93z M214.23,216.05l-7.87-23.6
+                                  l-7.91,23.6H214.23z" />
+                          <path
+                            d="M234.48,238.13v-57.19h11.12v27.18l24-27.26h12.24l-21.91,25.41l23.28,31.86h-12.57l-17.8-24.68l-7.25,7.58v17.1H234.48z" />
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path class="st3"
+                            d="M155.06,178.52c-3.71,0-7.21-0.75-10.51-2.25c-3.3-1.5-6.2-3.58-8.7-6.24s-4.44-5.76-5.84-9.3
+                                  c-1.4-3.54-2.09-7.38-2.09-11.52c0-3.92,0.7-7.61,2.09-11.08c1.4-3.46,3.36-6.51,5.88-9.14c2.52-2.63,5.48-4.7,8.86-6.2
+                                  c3.38-1.5,7.06-2.26,11.04-2.26c5.37,0,9.97,1.14,13.81,3.42c3.84,2.28,6.73,5.3,8.66,9.06l-8.3,6.12
+                                  c-1.45-2.85-3.48-5.02-6.08-6.52c-2.61-1.5-5.44-2.26-8.5-2.26c-2.42,0-4.62,0.51-6.6,1.53c-1.99,1.02-3.71,2.42-5.16,4.19
+                                  c-1.45,1.77-2.57,3.81-3.34,6.12c-0.78,2.31-1.17,4.75-1.17,7.33c0,2.74,0.42,5.26,1.25,7.57c0.83,2.31,2.01,4.32,3.54,6.04
+                                  c1.53,1.72,3.31,3.08,5.36,4.07c2.04,1,4.3,1.49,6.77,1.49c2.9,0,5.68-0.75,8.34-2.25c2.66-1.5,5.14-3.71,7.45-6.61v10.96
+                                  C167.03,175.94,161.45,178.52,155.06,178.52z M171.01,156.85h-11.52v-8.14h20.7v29.4h-9.18V156.85z" />
+                        </g>
+                        <g>
+                          <path class="st3" d="M155.7,238.53c-4.19,0-7.99-0.8-11.4-2.42c-3.41-1.61-6.34-3.8-8.78-6.57c-2.44-2.76-4.34-5.88-5.68-9.34
+                                  c-1.34-3.46-2.01-7.02-2.01-10.67c0-3.81,0.71-7.45,2.13-10.91c1.42-3.46,3.38-6.55,5.88-9.26c2.5-2.71,5.45-4.86,8.86-6.44
+                                  c3.41-1.58,7.15-2.38,11.24-2.38c4.13,0,7.91,0.83,11.32,2.5c3.41,1.67,6.32,3.89,8.74,6.69c2.42,2.79,4.3,5.91,5.64,9.34
+                                  c1.34,3.44,2.01,6.98,2.01,10.63c0,3.76-0.7,7.37-2.09,10.83c-1.4,3.46-3.34,6.55-5.84,9.26c-2.5,2.71-5.45,4.85-8.86,6.4
+                                  C163.45,237.75,159.73,238.53,155.7,238.53z M139.11,209.53c0,2.47,0.38,4.86,1.13,7.17c0.75,2.31,1.84,4.36,3.26,6.16
+                                  c1.42,1.8,3.17,3.22,5.24,4.27c2.07,1.05,4.42,1.57,7.05,1.57c2.68,0,5.07-0.55,7.17-1.65c2.09-1.1,3.84-2.58,5.24-4.43
+                                  c1.4-1.85,2.46-3.92,3.18-6.2c0.73-2.28,1.09-4.58,1.09-6.89c0-2.47-0.39-4.85-1.17-7.13c-0.78-2.28-1.88-4.32-3.3-6.12
+                                  c-1.42-1.8-3.17-3.22-5.24-4.27c-2.07-1.05-4.39-1.57-6.97-1.57c-2.74,0-5.14,0.55-7.21,1.65c-2.07,1.1-3.8,2.56-5.2,4.39
+                                  c-1.4,1.83-2.46,3.87-3.18,6.12C139.47,204.86,139.11,207.17,139.11,209.53z" />
+                        </g>
+                        <g>
+                          <path class="st3"
+                            d="M297.49,238.22v-21.44h9.09c0.99,0,1.89,0.2,2.72,0.6c0.83,0.4,1.54,0.95,2.16,1.63
+                                  c0.61,0.68,1.09,1.45,1.43,2.29c0.34,0.85,0.51,1.71,0.51,2.6c0,1.21-0.28,2.36-0.85,3.44c-0.56,1.09-1.34,1.97-2.33,2.66
+                                  c-0.99,0.68-2.16,1.03-3.5,1.03h-5.07v7.19H297.49z M301.66,227.38h4.83c0.5,0,0.96-0.14,1.36-0.42c0.4-0.28,0.72-0.69,0.97-1.22
+                                  c0.24-0.53,0.36-1.14,0.36-1.83c0-0.75-0.14-1.38-0.41-1.9s-0.62-0.92-1.06-1.18c-0.43-0.26-0.9-0.39-1.4-0.39h-4.65V227.38z" />
+                          <path class="st3" d="M320.01,216.78h4.23l7.88,21.44h-4.29l-1.78-5.34h-7.87l-1.79,5.34h-4.29L320.01,216.78z M325.08,229.95
+                                  l-2.95-8.85l-2.96,8.85H325.08z" />
+                          <path class="st3" d="M333.88,238.22v-21.44h9.48c0.99,0,1.9,0.2,2.73,0.6c0.84,0.4,1.56,0.95,2.17,1.63
+                                  c0.61,0.68,1.09,1.45,1.42,2.29s0.5,1.71,0.5,2.6c0,0.91-0.16,1.78-0.47,2.61c-0.31,0.84-0.76,1.57-1.34,2.19
+                                  c-0.58,0.62-1.27,1.11-2.05,1.45l4.89,8.06h-4.59l-4.41-7.19h-4.17v7.19H333.88z M338.04,227.38h5.22c0.52,0,0.99-0.16,1.39-0.47
+                                  c0.4-0.31,0.72-0.73,0.97-1.25c0.24-0.52,0.36-1.11,0.36-1.75c0-0.68-0.14-1.28-0.42-1.8c-0.28-0.51-0.64-0.92-1.07-1.22
+                                  c-0.43-0.3-0.9-0.45-1.4-0.45h-5.04V227.38z" />
+                          <path class="st3" d="M369.15,220.44h-6.85v17.79h-4.14v-17.79h-6.85v-3.65h17.85V220.44z" />
+                          <path class="st3"
+                            d="M375.4,224.45v13.77h-4.17v-21.44h3.32l11.08,14.13v-14.1h4.17v21.41h-3.47L375.4,224.45z" />
+                          <path class="st3"
+                            d="M408.58,234.57v3.65H393.7v-21.44h14.62v3.65h-10.45v5.16h9.03v3.38h-9.03v5.59H408.58z" />
+                          <path class="st3" d="M411.27,238.22v-21.44h9.48c0.99,0,1.9,0.2,2.73,0.6c0.84,0.4,1.56,0.95,2.17,1.63
+                                  c0.61,0.68,1.09,1.45,1.42,2.29s0.5,1.71,0.5,2.6c0,0.91-0.16,1.78-0.47,2.61c-0.31,0.84-0.76,1.57-1.34,2.19
+                                  c-0.58,0.62-1.27,1.11-2.05,1.45l4.89,8.06h-4.59l-4.41-7.19h-4.17v7.19H411.27z M415.44,227.38h5.22c0.52,0,0.99-0.16,1.39-0.47
+                                  c0.4-0.31,0.72-0.73,0.97-1.25c0.24-0.52,0.36-1.11,0.36-1.75c0-0.68-0.14-1.28-0.42-1.8c-0.28-0.51-0.64-0.92-1.07-1.22
+                                  c-0.43-0.3-0.9-0.45-1.4-0.45h-5.04V227.38z" />
+                          <path class="st3" d="M443.55,222.4c-0.14-0.14-0.4-0.33-0.77-0.57c-0.37-0.24-0.83-0.47-1.36-0.69c-0.53-0.22-1.11-0.42-1.74-0.59
+                                  s-1.26-0.26-1.9-0.26c-1.13,0-1.98,0.21-2.55,0.63c-0.57,0.42-0.86,1.01-0.86,1.77c0,0.58,0.18,1.04,0.54,1.38
+                                  s0.91,0.63,1.63,0.87c0.72,0.24,1.63,0.5,2.72,0.78c1.41,0.34,2.63,0.76,3.67,1.25c1.04,0.49,1.83,1.13,2.39,1.92
+                                  c0.55,0.79,0.83,1.84,0.83,3.14c0,1.14-0.21,2.12-0.63,2.93c-0.42,0.81-1.01,1.47-1.75,1.97c-0.75,0.5-1.59,0.87-2.54,1.1
+                                  c-0.95,0.23-1.95,0.35-3.02,0.35s-2.13-0.11-3.2-0.33c-1.07-0.22-2.09-0.54-3.08-0.95c-0.99-0.41-1.89-0.91-2.72-1.49l1.84-3.59
+                                  c0.18,0.18,0.5,0.42,0.97,0.71s1.03,0.58,1.69,0.88c0.66,0.29,1.39,0.54,2.17,0.74s1.58,0.3,2.39,0.3c1.13,0,1.98-0.19,2.57-0.57
+                                  c0.58-0.38,0.88-0.92,0.88-1.61c0-0.64-0.23-1.14-0.69-1.5c-0.46-0.36-1.11-0.68-1.93-0.95c-0.83-0.27-1.8-0.57-2.93-0.89
+                                  c-1.35-0.38-2.48-0.81-3.38-1.28c-0.91-0.47-1.58-1.07-2.02-1.79c-0.44-0.72-0.66-1.62-0.66-2.71c0-1.46,0.35-2.69,1.04-3.68
+                                  c0.69-0.99,1.64-1.74,2.82-2.25s2.51-0.77,3.96-0.77c1.01,0,1.96,0.11,2.85,0.33c0.9,0.22,1.74,0.51,2.52,0.88
+                                  s1.49,0.75,2.11,1.18L443.55,222.4z" />
+                        </g>
+                      </g>
+                      <rect x="109.29" y="80" class="st4" width="355.33" height="200" />
+                    </svg>
+                  </div>
+                  <div class="ftCntnt">
+                    <span class="ftTxt">Discover how Georgia Oak Partners can brand
+                      promise lorem ipsum doloret amet.</span>
+                    <button class="ftBtn">GET STARTED</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="ftBox">
+                      <div class="ftHead">
+                        <h4>Contact Us</h4>
+                      </div>
+                      <div class="ftLink">
+                        <a href="javascript:(void)"><i class="fa fa-envelope"></i> info@georgiaoakpartners.com</a>
+                        <a href="javascript:(void)"><i class="fa fa-phone"></i> +1 404 961 7201</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="ftBox">
+                      <div class="ftHead">
+                        <h4>Follow Us</h4>
+                      </div>
+                      <div class="ftLink">
+                        <a href="javascript:(void)"><i class="fa fa-facebook-f"></i> Facebook</a>
+                        <a href="javascript:(void)"><i class="fa fa-instagram"></i> Instagram</a>
+                        <a href="javascript:(void)"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="ftBox">
+                      <div class="ftHead">
+                        <h4 class="JosefinSemiBold cpWrit">LOGIN | LEGAL</h4>
+                      </div>
+                      <div class="ftLink">
+                        <a href="javascript:(void)">Copyright © 2022 Georgia Oak Partners</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
