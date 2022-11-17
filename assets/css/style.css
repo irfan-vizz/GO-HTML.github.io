@@ -308,6 +308,9 @@ body{
 .drkBlk{
     color: #24282F !important;
 }
+.bgdrkGrn{
+    background-color: #003F2C;
+}
 .brdrBtmPrimry{
     border-bottom: 8px solid #007B3F;
 }
@@ -343,6 +346,29 @@ body{
     height: 100%;
     object-fit: cover;
 }
+.crumbarlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Cardo-Regular';
+    background-color: #007b3e;
+}
+
+.crumbarItem {
+    padding: 20px 10px;
+}
+.crumbarlink{
+    cursor: pointer;
+    color: #66C082;
+}
+.crumbarlink:hover, .crumbarlink.active{
+    color: #DDD9CF;
+    text-decoration: none;
+}
+
 /* =================*********** Common Styling Ends Here ***********================= */
 
 /* =================*********** same Page Styling Starts Here ***********================= */
@@ -455,6 +481,22 @@ body{
         left: 0;
         background-color: #c6c5c4;
     
+    }
+    .caseStudyWrap {
+        padding-left: 30px;
+        position: relative;
+    }
+    .caseStudyWrap::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        left: -15px;
+        top: 0;
+        background-color: #66C082;
+    }
+    .csListing {
+        padding-right: 30px;
     }
 }
 /* =================*********** Min-width Media Query Ends Here ***********================= */
