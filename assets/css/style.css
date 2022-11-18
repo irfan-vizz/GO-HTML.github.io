@@ -280,12 +280,17 @@ body{
 }
 .content>p{
     font-family: JosefinSans-light;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
+    color: #474140;
 }
 .content.sm>p{
     font-family: Cardo-Regular;
-    font-size: 16px;
+    font-size: 18px;
+}
+.content.xs>p{
+    font-family: Cardo-Regular;
+    font-size: 14px;
 }
 .prmryGrn{
     color: #66C082 !important;
@@ -308,6 +313,9 @@ body{
 .drkBlk{
     color: #24282F !important;
 }
+.jetBlk{
+    color: #000000 !important;
+}
 .bgdrkGrn{
     background-color: #003F2C;
 }
@@ -319,6 +327,9 @@ body{
 }
 .brdrBtmPrimry.thick{
     border-bottom: 20px solid #007B3F;
+}
+.brdrTopPrimry.thick{
+    border-top: 20px solid #007B3F;
 }
 .brdrBtmScndry{
     border-bottom: 3px solid #66C082;
@@ -368,8 +379,141 @@ body{
     color: #DDD9CF;
     text-decoration: none;
 }
+.sctorBnr{
+    background-image: url(/assets/images/Hero_04.png);
+}
+.mnufctrBnr{
+    background-image: url(/assets/images/Hero_05.png);
+}
+.hmsBnr{
+    background-image: url(/assets/images/Hero_06.png);
+}
+.cmgoodsBnr{
+    background-image: url(/assets/images/Hero_07.png);
+}
+.bussinessBnr{
+    background-image: url(/assets/images/Hero_08.png);
+}
+.salerBnr{
+    background-image: url(/assets/images/Hero_11.png);
+}
+.insightBnr{
+    background-image: url(/assets/images/Hero_10.png);
+}
+.paging>h3{
+    color: #bbb;
+}
+.authorImg {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #007b3e;
+}
 
+.authorImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.bnrLogo>svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bnrLogo {
+    width: 100px;
+    margin: auto;
+}
 /* =================*********** Common Styling Ends Here ***********================= */
+
+
+/* =================*********** Modal Styling Starts Here ***********================= */
+.modalInner{
+    display: flex;
+}
+.modaLeft{
+    max-width: 30%;
+    width: 30%;
+}
+.modalRight {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.mrInner {
+    max-width: 770px;
+    width: 100%;
+}
+.imgWrap {
+    width: 100%;
+    height: 100%;
+}
+.imgWrap>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal-body {
+    padding: 0;
+}
+.modalInner .heading>h2{
+    font-size: 50px;
+}
+.modalInner .subHeading>h3 {
+    font-size: 26px;
+}
+.modalBtn>button {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #66C082;
+    background: transparent;
+    font-size: 50px;
+    color: #66C082;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.profileWrap{
+    height: calc(100% - 100px);
+    margin: 50px;
+    position: relative;
+}
+.profileWrap::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    bottom: 0;
+    width: 1px;
+    background-color: #59ab6f;
+}
+.singleProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+.socialIcon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: #24282F;
+    border: 1px solid #24282F;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* =================*********** Modal Styling Ends Here ***********================= */
 
 /* =================*********** same Page Styling Starts Here ***********================= */
 .csDetail{
@@ -391,7 +535,16 @@ body{
     padding-right: 0;
 }
 .csItem+.csItem{
-    border-top: 1px solid #000;
+    border-top: 1px solid #474140;
+}
+.csIcon>svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.csIcon {
+    width: 40px;
+    margin-right: 16px;
 }
 .scndryItem+.scndryItem{
     border-color: #007b3e;
@@ -410,6 +563,7 @@ body{
 .csDate>time {
     font-family: 'JosefinSans-SemiBold';
     position: relative;
+    color: #474140;
 }
 .csItem .csDate>time::before {
     position: absolute;
@@ -497,6 +651,17 @@ body{
     }
     .csListing {
         padding-right: 30px;
+    }
+    .caseStudyList{
+        padding-left: 30px;
+    }
+    .modal-dialog {
+        max-width: 1500px;
+        margin: 1.75rem auto;
+    }
+    .modal-content{
+        margin: 0 50px;
+        width: calc(100% - 100px);
     }
 }
 /* =================*********** Min-width Media Query Ends Here ***********================= */
@@ -678,6 +843,7 @@ body{
     text-align: center;
     padding: 100px 0;
     position: relative;
+    cursor: pointer;
 }
 .subjectCard::before {
     content: "";
@@ -760,6 +926,7 @@ body{
     align-items: center;
     text-align: center;
     margin: 0 20px;
+    cursor: pointer;
 }
 .pcImg {
     width: 120px;
@@ -767,6 +934,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
     margin-bottom:20px;
+    border: 2px solid #59ab6f;
 }
 .pcImg>img {
     width: 100%;
@@ -802,6 +970,72 @@ body{
     height: 100%;
     object-fit: cover;
 }
+/* =================*********** Partners Page Styling Starts Here ***********================= */
+.child:nth-child(-n+3) {
+    border-bottom: 1px solid #24282F;
+    padding-bottom: 40px;
+    
+  }
+  
+  .child:nth-child(3n+1) {
+    border-right: 1px solid #24282F;
+}
+
+.child:nth-child(3n) {
+    border-left: 1px solid #24282F;
+  }
+  
+  .child:nth-child(n+7) {
+    border-top: 1px solid #24282F;
+    padding-top: 40px;
+  }
+  .child:nth-child(n+4) {
+    padding-top: 40px;
+  }
+.singlePartner{
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+.partnerTitle>h3 {
+    color: #007B3F;
+    font-family: 'Cardo-Regular';
+    font-size: 28px;
+}
+.partnerImg{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #007b3e;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.partnerImg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prtnerLogo {
+    width: 130px;
+    margin: auto;
+}
+.prtnerLogo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ul.partnerInfo {
+    list-style: none;
+    margin: 0;
+    color: #003F2C;
+    font-size: 16px;
+}
+/* =================*********** Partners Page Styling Ends Here ***********================= */
 /* =================*********** Seller Consideration Page Styling Starts Here ***********================= */
 
 .sellerInner {
@@ -816,15 +1050,18 @@ body{
     text-align: center;
     position: relative;
 }
-
+.sCrdImg {
+    margin-bottom: 10px;
+}
 .sCrdTitle>h3 {
-    font-size: 22px;
-    font-family: 'Cardo-Bold';
+    font-size: 26px;
+    font-family: 'Cardo-Regular';
     color: #007b3e;
 }
 .sCrdTxt>p{
     font-family: 'JosefinSans-Light';
     font-size: 18px;
+    margin-bottom: 20px;
 }
 /* =================*********** Mian Styling Ends Here ***********================= */
 
@@ -1033,6 +1270,13 @@ body{
             padding: 50px 0;
             height: 350px;
         }
+        .partnerTitle>h3 {
+            font-size: 26px;
+        }
+        .partnerImg {
+            width: 150px;
+            height: 150px;
+        }
     }
     @media (max-width:991px) {
         .heading>h1{
@@ -1232,6 +1476,36 @@ body{
         }
         .prmryBtn+.prmryBtn{
             margin-top: 10px;
+        }
+        .child:nth-child(-n+3) {
+            border-bottom: none;
+            padding-bottom: 0
+            
+          }
+          
+          .child:nth-child(3n+1) {
+            border-right: none;
+        }
+        
+        .child:nth-child(3n) {
+            border-left: none;
+          }
+          
+          .child:nth-child(n+7) {
+            border-top: none;
+          }
+          .child:nth-child(n+4) {
+            padding-top: 0;
+        }
+        .child{
+              
+            border-bottom: 1px solid #24282F !important;
+        }
+        .singlePartner{
+            padding: 20px 0;
+        }
+        .child:last-child{
+            border-bottom: none !important;
         }
     }
     @media (max-width:580px) {

@@ -1,26 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 126.91 126.91" style="enable-background:new 0 0 126.91 126.91;" xml:space="preserve">
-<style type="text/css">
-	.st0{clip-path:url(#SVGID_00000089571063745127507190000013020028386909122491_);fill:none;stroke:#007B3E;stroke-width:2.214;}
-	
-		.st1{clip-path:url(#SVGID_00000089571063745127507190000013020028386909122491_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-miterlimit:10;}
-</style>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="0" y="0" width="126.92" height="126.92"/>
-	</defs>
-	<clipPath id="SVGID_00000124126775036049871100000000999212280151233690_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	
-		<circle style="clip-path:url(#SVGID_00000124126775036049871100000000999212280151233690_);fill:none;stroke:#007B3E;stroke-width:2.214;" cx="63.46" cy="63.46" r="62.35"/>
-	
-		<path style="clip-path:url(#SVGID_00000124126775036049871100000000999212280151233690_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-miterlimit:10;" d="
-		M80.1,66.3l4.64,4.64l7.74-7.74 M98.67,67.85c0,6.84-5.54,12.38-12.38,12.38c-6.83,0-12.38-5.54-12.38-12.38
-		s5.54-12.38,12.38-12.38C93.12,55.47,98.67,61.01,98.67,67.85z M67.98,67.85H49.16c-8.54,0-15.47,6.93-15.47,15.47v9.28h55.7v-6.19
-		 M73.91,43.09c0,6.84-5.54,12.38-12.38,12.38c-6.84,0-12.38-5.54-12.38-12.38s5.54-12.38,12.38-12.38
-		C68.37,30.72,73.91,36.26,73.91,43.09z"/>
-</g>
+<svg id="RingPartner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.641" height="137.641" viewBox="0 0 137.641 137.641">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9663" data-name="Rectangle 9663" width="137.641" height="137.641"/>
+    </clipPath>
+  </defs>
+  <g id="Group_22718" data-name="Group 22718" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_570" data-name="Ellipse 570" cx="67.617" cy="67.617" rx="67.617" ry="67.617" transform="translate(1.204 1.204)" fill="none" stroke="#007b3e" stroke-width="2.214"/>
+  </g>
+  <g id="Group_22719" data-name="Group 22719" clip-path="url(#clip-path)">
+    <path id="Path_15150" data-name="Path 15150" d="M84.02,69.306l5.032,5.032,8.394-8.394m6.713,5.043A13.426,13.426,0,1,1,90.733,57.561,13.422,13.422,0,0,1,104.159,70.987Zm-33.282,0H50.467A16.782,16.782,0,0,0,33.69,87.764V97.828h60.4V91.115M77.307,44.136A13.426,13.426,0,1,1,63.882,30.71,13.422,13.422,0,0,1,77.307,44.136Z" transform="translate(2.846 2.594)" fill="none" stroke="#007b3e" stroke-miterlimit="10" stroke-width="2.12"/>
+  </g>
 </svg>

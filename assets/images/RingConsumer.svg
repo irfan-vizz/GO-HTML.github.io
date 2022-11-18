@@ -1,17 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 140.08 140.08" style="enable-background:new 0 0 140.08 140.08;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#007B3E;stroke-width:2.443;}
-	.st1{fill:none;stroke:#007B3E;stroke-width:1.905;stroke-miterlimit:10;}
-</style>
-<g>
-	<circle class="st0" cx="70.04" cy="70.04" r="68.82"/>
-	<path class="st1" d="M53.19,54.01h35.46 M53.19,46.91h35.46 M85.1,68.19H56.73c-1.96,0-3.55-1.59-3.55-3.54V43.37
-		c0-1.96,1.59-3.55,3.55-3.55H85.1c1.96,0,3.55,1.59,3.55,3.55v21.27C88.65,66.6,87.06,68.19,85.1,68.19z M58.51,101.87h21.27
-		 M92.19,101.87c0,3.92-3.17,7.09-7.09,7.09s-7.09-3.18-7.09-7.09s3.18-7.09,7.09-7.09S92.19,97.96,92.19,101.87z M58.51,101.87
-		c0,3.92-3.17,7.09-7.09,7.09c-3.92,0-7.09-3.18-7.09-7.09s3.17-7.09,7.09-7.09C55.33,94.78,58.51,97.96,58.51,101.87z M44.32,54.01
-		v-7.09H33.69 M93.96,54.01h7.09l-7.09,31.91H44.32V54.01h3.55"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="140.083" height="140.083" viewBox="0 0 140.083 140.083">
+  <g id="RingConsumer" transform="translate(0.001 0.002)">
+    <circle id="Ellipse_566" data-name="Ellipse 566" cx="68.82" cy="68.82" r="68.82" transform="translate(1.22 1.22)" fill="none" stroke="#007b3e" stroke-width="2.443"/>
+    <path id="Path_15144" data-name="Path 15144" d="M53.19,54.01H88.65m-35.46-7.1H88.65M85.1,68.19H56.73a3.549,3.549,0,0,1-3.55-3.54V43.37a3.551,3.551,0,0,1,3.55-3.55H85.1a3.551,3.551,0,0,1,3.55,3.55V64.64A3.551,3.551,0,0,1,85.1,68.19ZM58.51,101.87H79.78m12.41,0a7.09,7.09,0,1,1-7.09-7.09A7.085,7.085,0,0,1,92.19,101.87Zm-33.68,0a7.09,7.09,0,1,1-7.09-7.09A7.085,7.085,0,0,1,58.51,101.87ZM44.32,54.01V46.92H33.69m60.27,7.09h7.09L93.96,85.92H44.32V54.01h3.55" fill="none" stroke="#007b3e" stroke-miterlimit="10" stroke-width="1.905"/>
+  </g>
 </svg>

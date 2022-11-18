@@ -1,28 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 126.91 126.91" style="enable-background:new 0 0 126.91 126.91;" xml:space="preserve">
-<style type="text/css">
-	.st0{clip-path:url(#SVGID_00000144330536628327313500000017696617601679682944_);fill:none;stroke:#007B3E;stroke-width:2.214;}
-	
-		.st1{clip-path:url(#SVGID_00000144330536628327313500000017696617601679682944_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#007B3E;stroke-width:2.12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="0" y="0" width="126.92" height="126.92"/>
-	</defs>
-	<clipPath id="SVGID_00000093865989918629609390000016965162486208583862_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	
-		<circle style="clip-path:url(#SVGID_00000093865989918629609390000016965162486208583862_);fill:none;stroke:#007B3E;stroke-width:2.214;" cx="63.46" cy="63.46" r="62.35"/>
-	
-		<path style="clip-path:url(#SVGID_00000093865989918629609390000016965162486208583862_);fill:none;stroke:#007B3E;stroke-width:2.12;stroke-linejoin:round;stroke-miterlimit:10;" d="
-		M73.28,24.98l-3.28,1.64l-3.27-1.64l-3.27,1.64l-3.28-1.64l-3.27,1.64l-3.27-1.64v18.01h19.65V24.98z M76.55,61h-26.2v-9.82h26.2
-		V61z M74.92,36.44h8.19v55.67c0,5.42-4.4,9.82-9.82,9.82H53.63c-5.42,0-9.82-4.4-9.82-9.82V36.44h9.82"/>
-</g>
-<path class="st2" d="M71.64,93.75h3.28 M61.82,93.75h3.28 M52,93.75h3.27 M71.64,87.2h3.28 M61.82,87.2h3.28 M52,87.2h3.27
-	 M71.64,80.65h3.28 M61.82,80.65h3.28 M52,80.65h3.27 M71.64,74.1h3.28 M61.82,74.1h3.28 M52,74.1h3.27 M71.64,67.55h3.28
-	 M61.82,67.55h3.28 M52,67.55h3.27"/>
+<svg id="RingValuation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.641" height="137.641" viewBox="0 0 137.641 137.641">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9669" data-name="Rectangle 9669" width="137.641" height="137.641"/>
+    </clipPath>
+  </defs>
+  <g id="Group_22726" data-name="Group 22726">
+    <g id="Group_22724" data-name="Group 22724" clip-path="url(#clip-path)">
+      <ellipse id="Ellipse_573" data-name="Ellipse 573" cx="67.617" cy="67.617" rx="67.617" ry="67.617" transform="translate(1.204 1.204)" fill="none" stroke="#007b3e" stroke-width="2.214"/>
+    </g>
+    <g id="Group_22725" data-name="Group 22725" clip-path="url(#clip-path)">
+      <path id="Path_15153" data-name="Path 15153" d="M75.769,24.98l-3.557,1.779L68.666,24.98,65.12,26.759,61.563,24.98l-3.546,1.779L54.47,24.98V44.511H75.78V24.98Zm3.546,39.063H50.9V53.393H79.315ZM77.548,37.408H86.43V97.78A10.654,10.654,0,0,1,75.78,108.43H54.459A10.654,10.654,0,0,1,43.81,97.78V37.408H54.459" transform="translate(3.701 2.11)" fill="none" stroke="#007b3e" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.12"/>
+    </g>
+  </g>
+  <path id="Path_15154" data-name="Path 15154" d="M73.3,95.963h3.557m-14.207,0h3.557M52,95.963h3.546M73.3,88.86h3.557m-14.207,0h3.557M52,88.86h3.546m17.753-7.1h3.557m-14.207,0h3.557M52,81.757h3.546m17.753-7.1h3.557m-14.207,0h3.557M52,74.653h3.546M73.3,67.55h3.557m-14.207,0h3.557M52,67.55h3.546" transform="translate(4.392 5.706)" fill="none" stroke="#007b3e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.12"/>
 </svg>
