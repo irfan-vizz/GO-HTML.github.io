@@ -345,6 +345,9 @@ body{
 .divder.thin{
     border-top: 2px solid #007B3F;
 }
+.divderScndry{
+    border-top: 1px solid #66C082;
+}
 .videoWrap{
     position: relative;
     padding-top: 60%;
@@ -512,6 +515,35 @@ body{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.infoList {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    color: #007b3f;
+    font-family: 'Cardo-Regular';
+    font-size: 18px;
+}
+.infoList.sm{
+    font-size: 14px;
+    font-family: 'Cardo-Bold';
+}
+.infoItem + .infoItem {
+    margin-left: 20px;
+    position: relative;
+}
+.infoList.sm .infoItem + .infoItem::before{
+    height: 12px;
+}
+.infoItem + .infoItem::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    height: 16px;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 1px;
+    background: #007b3f;
 }
 /* =================*********** Modal Styling Ends Here ***********================= */
 
@@ -785,9 +817,12 @@ body{
     font-size: 14px;
     padding: 16px;
     cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
 }
-.navButn button i {
-    font-size: 22px;
+.navButn button i, .navButn button svg {
     margin-right: 8px;
 }
 /* =================*********** Header Styling Ends Here ***********================= */
@@ -952,7 +987,7 @@ body{
 .csCard {
     display: flex;
     align-items: center;
-    max-width: 850px;
+    max-width: 900px;
 }
 .csCard + .csCard{
     border-top: 1px solid #007b3e;
@@ -1188,7 +1223,8 @@ ul.partnerInfo {
     font-family: Cardo-Bold;
 }
 .ftLink>a{
-    display: block;
+    display: flex;
+    align-items: flex-end;
     font-size: 16px;
     color: #24282F;
     font-family: JosefinSans-Light;
@@ -1196,6 +1232,11 @@ ul.partnerInfo {
     word-break: break-word;
     line-height: 1.1;
     margin-bottom: 4px;
+}
+.ftLink svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
 }
 .cpWrit{
     font-size: 18px !important;
@@ -1429,14 +1470,15 @@ ul.partnerInfo {
             background-color: #c6c5c4;
         
         }
+        body:has(.listWrap.open){
+            overflow: hidden;
+        }
     }
     @media (max-width:767px) {
         .heading>h1{
             font-size: 38px;
         }
-        body:has(.listWrap.open){
-            overflow: hidden;
-        }
+        
         .navButn{
             width: 100%;
         }
