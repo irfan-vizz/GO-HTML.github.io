@@ -316,6 +316,9 @@ body{
 .jetBlk{
     color: #000000 !important;
 }
+.white{
+    color: #fff !important;
+}
 .bgdrkGrn{
     background-color: #003F2C;
 }
@@ -333,6 +336,9 @@ body{
 }
 .brdrBtmScndry{
     border-bottom: 3px solid #66C082;
+}
+.brdrtopLight{
+    border-top: 1px solid #fff;
 }
 .divder{
     margin-top: 1rem;
@@ -546,6 +552,286 @@ body{
     background: #007b3f;
 }
 /* =================*********** Modal Styling Ends Here ***********================= */
+
+/* =================*********** Contact Modal Styling Starts Here ***********================= */
+
+.contactModal{
+    background-image: url('/assets/images/Hero_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 80px;
+}
+.contactModal::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005c;
+}
+.contactInfo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cntctInfoList {
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    font-size: 18px;
+    max-width: 320px;
+}
+.cntctInfoList li a svg{
+    color: #fff;
+}
+.cntctInfoList li a {
+    display: flex;
+    align-items: center;
+}
+.cntctInfoList li a:hover{
+    color: #fff;
+}
+.cntctInfoList li a svg {
+    color: #fff;
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+    flex: 0 0 30px;
+}
+.cntctInfoList li + li{
+    margin-top: 20px;
+}
+/* form design starts here */
+
+.formWrapper .cardHeader h1 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.formWrapper .form-group {
+    margin-bottom: 28px;
+}
+
+.inlineField label {
+    margin: 0;
+}
+
+.formWrapper label {
+    /* color: #3b3f5c; */
+    font-size: 16px;
+    /* font-weight: 500; */
+}
+
+.formWrapper label {
+    font-family: 'muliSemibold';
+}
+
+.formWrapper input:not([type='checkbox'],
+[type='radio']),
+.formWrapper select,
+.formWrapper textarea {
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 14px;
+    height: 45px;
+    border: 2px solid #DDD9CF;
+    background: #ffffff7a;
+    -webkit-box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
+    box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
+    transition: 0.4s ease all;
+    width: 100%;
+    color: #DDD9CF;
+}
+
+.formWrapper select,
+.formWrapper textarea {
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 14px;
+    height: 45px;
+    border: 2px solid #DDD9CF;
+    background: #ffffff7a;
+    -webkit-box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
+    box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
+    transition: 0.4s ease all;
+    width: 100%;
+    color: #DDD9CF;
+}
+
+.formWrapper textarea {
+    height: auto;
+    resize: none;
+}
+
+.formWrapper input::placeholder, .formWrapper textarea::placeholder {
+    font-size: 16px;
+    /* font-family: 'muliRegular'; */
+    /* font-weight: 500; */
+    color: #DDD9CF;
+}
+
+.formWrapper input:not([type='checkbox'],
+[type='radio']):focus,
+.formWrapper select:focus,
+.formWrapper textarea:focus {
+    -webkit-box-shadow: 2px 5px 17px 0 rgb(31 45 61 / 10%);
+    box-shadow: 2px 5px 17px 0 rgb(31 45 61 / 10%);
+    border: 2px solid #DDD9CF;
+    outline: none;
+}
+
+.searchWrapper select {
+    width: 30%;
+    float: left;
+    border-right: none;
+    border-radius: 7px 0 0 7px;
+}
+
+.searchWrapper input:not([type='checkbox'],
+[type='radio']) {
+    width: 70%;
+    float: left;
+    border-radius: 0 7px 7px 0;
+}
+
+.customCheck {
+    position: relative;
+    margin: 0 4px;
+}
+
+.customCheck::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: #dcdcdc;
+    border-radius: 50%;
+}
+
+.customCheck::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background: #dcdcdc;
+    border: 1px solid #dcdcdc;
+    /*  transition: 0.4s ease all; */
+    cursor: pointer;
+}
+
+.customCheck:checked:after {
+    border-color: #ffffff;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    width: 5px;
+    transform: translate(-50%, -60%) rotate(45deg);
+    background: #00C99C;
+}
+
+.customCheck:checked:before {
+    background: #00C99C;
+}
+
+.inlineInput {
+    display: flex;
+    align-items: center;
+}
+
+.inlineInput input {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.radio_btn label {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.custom_checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.custom_checkbox .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.radio_btn input[type="radio"] {
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.radio_btn input[type="radio"]::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border: 1px solid #676767;
+    border-radius: 50%;
+}
+
+.radio_btn input[type="radio"]:checked::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #449ad1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+}
+
+.form_titl {
+    font-size: 14px;
+    /* font-weight: 700; */
+    /* color: #617f59; */
+    text-transform: uppercase;
+    font-family: 'poppinsBlack';
+}
+
+.Arow {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.Arow.left {
+    left: -25px;
+}
+
+.Arow.right {
+    right: -25px;
+}
+
+
+/* form design ends here */
+/* =================*********** Contact Modal Styling Ends Here ***********================= */
 
 /* =================*********** same Page Styling Starts Here ***********================= */
 .csDetail{
