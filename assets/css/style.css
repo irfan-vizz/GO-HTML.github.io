@@ -568,7 +568,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 20px);
     background-color: #0000005c;
 }
 .contactInfo {
@@ -637,13 +637,13 @@ body{
     padding: 10px;
     font-size: 14px;
     height: 45px;
-    border: 2px solid #DDD9CF;
+    border: 2px solid #EAE9E8;
     background: #ffffff7a;
     -webkit-box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
     box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
     transition: 0.4s ease all;
     width: 100%;
-    color: #DDD9CF;
+    color: #EAE9E8;
 }
 
 .formWrapper select,
@@ -652,13 +652,13 @@ body{
     padding: 10px;
     font-size: 14px;
     height: 45px;
-    border: 2px solid #DDD9CF;
+    border: 2px solid #EAE9E8;
     background: #ffffff7a;
     -webkit-box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
     box-shadow: 0 0 0 0 rgb(31 45 61 / 10%);
     transition: 0.4s ease all;
     width: 100%;
-    color: #DDD9CF;
+    color: #EAE9E8;
 }
 
 .formWrapper textarea {
@@ -670,7 +670,7 @@ body{
     font-size: 16px;
     /* font-family: 'muliRegular'; */
     /* font-weight: 500; */
-    color: #DDD9CF;
+    color: #EAE9E8;
 }
 
 .formWrapper input:not([type='checkbox'],
@@ -679,7 +679,7 @@ body{
 .formWrapper textarea:focus {
     -webkit-box-shadow: 2px 5px 17px 0 rgb(31 45 61 / 10%);
     box-shadow: 2px 5px 17px 0 rgb(31 45 61 / 10%);
-    border: 2px solid #DDD9CF;
+    border: 2px solid #EAE9E8;
     outline: none;
 }
 
@@ -975,6 +975,10 @@ body{
     }
     .modal-dialog {
         max-width: 1500px;
+        margin: 1.75rem auto;
+    }
+    .modal-dialog:has(.contactModal ) {
+        max-width: 1200px;
         margin: 1.75rem auto;
     }
     .modal-content{
